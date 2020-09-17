@@ -41,6 +41,20 @@ import { AppointmentConfirmationComponent } from './appointment-confirmation/app
 import { NotQualifiedComponent } from './not-qualified/not-qualified.component';
 import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-conditions.component';
 import { PrivacyPolicyv2Component } from './privacy-policyv2/privacy-policyv2.component';
+import { AboutComponent } from './Blog-components/about/about.component';
+import { AudienceComponent } from './Blog-components/audience/audience.component';
+import { FollowersComponent } from './Blog-components/followers/followers.component';
+import { FooterComponent } from './Blog-components/footer/footer.component';
+import { MainBannerComponent } from './Blog-components/main-banner/main-banner.component';
+import { NavbarComponent } from './Blog-components/navbar/navbar.component';
+import { BlogDetailsComponent } from './Blog-components/pages/blog-details/blog-details.component';
+import { PartnersComponent } from './Blog-components/partners/partners.component';
+import { PodcastComponent } from './Blog-components/podcast/podcast.component';
+import { SocialStatisticsComponent } from './Blog-components/social-statistics/social-statistics.component';
+import { SubscribeComponent } from './Blog-components/subscribe/subscribe.component';
+import { VideoComponent } from './Blog-components/video/video.component';
+import { HomeComponent2 } from './Blog-components/pages/home/home.component';
+import { BlogComponent } from './Blog-components/blog/blog.component';
 
 
 
@@ -77,7 +91,21 @@ import { PrivacyPolicyv2Component } from './privacy-policyv2/privacy-policyv2.co
     AppointmentConfirmationComponent,
     NotQualifiedComponent,
     TermsAndConditionsComponent,
-    PrivacyPolicyv2Component
+    PrivacyPolicyv2Component,
+    AboutComponent,
+    AudienceComponent,
+    FollowersComponent,
+    FooterComponent,
+    MainBannerComponent,
+    NavbarComponent,
+    PartnersComponent,
+    PodcastComponent,
+    SocialStatisticsComponent,
+    SubscribeComponent,
+    VideoComponent,
+    BlogDetailsComponent,
+    HomeComponent2,
+    BlogComponent
   ],
   imports: [
     BrowserModule,

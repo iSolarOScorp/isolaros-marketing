@@ -27,6 +27,8 @@ import { AppointmentConfirmationComponent } from './appointment-confirmation/app
 import { NotQualifiedComponent } from './not-qualified/not-qualified.component';
 import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-conditions.component';
 import { PrivacyPolicyv2Component } from './privacy-policyv2/privacy-policyv2.component';
+import { HomeComponent2 } from './Blog-components/pages/home/home.component';
+import { BlogDetailsComponent } from './Blog-components/pages/blog-details/blog-details.component';
 
 const routes: Routes = [
     {path: '', component: ConstructionComponent},
@@ -55,7 +57,11 @@ const routes: Routes = [
     {path : 'appointment-confirmed', component : AppointmentConfirmationComponent},
     {path : 'not-qualified',component : NotQualifiedComponent},
     {path : 'terms', component : TermsAndConditionsComponent},
-    {path : 'privacy-policy', component : PrivacyPolicyv2Component}
+    {path : 'privacy-policy', component : PrivacyPolicyv2Component},
+    {
+        path : 'blog', component : HomeComponent2
+    },
+    {path: 'blog-details', component: BlogDetailsComponent},
 ];
 
 @NgModule({
