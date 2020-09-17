@@ -108,5 +108,26 @@ export class UtilityService {
                   }
                 )
               }
-                      
+              updateAppointment(data) {
+                let key;
+                key = window.localStorage.getItem("key");
+                console.log(key);
+                this.db.object('database/projects/' + key).update({ appointment: data }).then(
+                  () => {
+                    console.log("appointment created successfully");
+                    this.db.object('database/projects/' + key).valueChanges().subscribe(x => {
+                        console.log("userdata",x);
+                        let userdata = x;
+                        // this.sendEmailtoAdmin(userdata).subscribe(x => {
+                        //       console.log(x);
+                        //     });
+                            this.router.navigateByUrl('/getting-started/appointment-confirmed');
+                          })
+            
+                          window.localStorage.clear();
+                      }
+                ).catch(err => {
+                  alert(err);
+                })
+              }       
 }

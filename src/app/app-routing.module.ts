@@ -22,6 +22,7 @@ import { AutoServicingComponent } from './components/templates/auto-servicing/au
 import { CityComponent } from './components/templates/city/city.component';
 import { PlumbingComponent } from './components/templates/plumbing/plumbing.component';
 import { DataCollectionComponent } from './data-collection/data-collection.component';
+import { AppointmentComponent } from './appointment/appointment.component';
 
 const routes: Routes = [
     {path: '', component: ConstructionComponent},
@@ -45,9 +46,8 @@ const routes: Routes = [
     {path: 'auto-servicing', component: AutoServicingComponent},
     {path: 'city', component: CityComponent},
     {path: 'plumbing', component: PlumbingComponent},
-    {
-        path : 'survey',component : DataCollectionComponent
-    }
+    {path : 'survey',component : DataCollectionComponent},
+    {path : 'appointment',component : AppointmentComponent}
 ];
 
 @NgModule({

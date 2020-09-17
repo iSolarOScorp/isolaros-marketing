@@ -6,7 +6,7 @@ import { UtilityService } from '../utility.service';
   selector: 'app-appointment',
   templateUrl: './appointment.component.html',
   styleUrls: ['./appointment.component.css',
-              "./test.scss"
+              "./appointment.component.scss"
 ]
 })
 export class AppointmentComponent implements OnInit {

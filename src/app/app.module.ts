@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, HammerModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -34,6 +34,11 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment';
 import { GooglePlaceModule } from 'ngx-google-places-autocomplete';
+import { AppointmentComponent } from './appointment/appointment.component';
+import { IgxCalendarModule, IgxIconModule } from 'igniteui-angular';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
 
 @NgModule({
   declarations: [
@@ -63,7 +68,8 @@ import { GooglePlaceModule } from 'ngx-google-places-autocomplete';
     CityComponent,
     PlumbingComponent,
     CountdownComponent,
-    DataCollectionComponent
+    DataCollectionComponent,
+    AppointmentComponent
   ],
   imports: [
     BrowserModule,
@@ -73,7 +79,10 @@ import { GooglePlaceModule } from 'ngx-google-places-autocomplete';
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     GooglePlaceModule,
-
+    IgxCalendarModule,
+    HammerModule,
+    IgxIconModule,
+    BrowserAnimationsModule,
   ],
   providers: [HttpClient,],
   bootstrap: [AppComponent]
