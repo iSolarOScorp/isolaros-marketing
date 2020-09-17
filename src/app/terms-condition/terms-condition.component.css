@@ -1,0 +1,58 @@
+@import"../../assets/new-project/css/custom.css";
+@import "../../assets/new-project/css/landy-iconfont.css";
+@import "../../assets/new-project/css/style.default.css";
+.setBg {
+    padding-top: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 8%;
+    font-family: Roboto;
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../../assets/new-project/img/banner.png');
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+
+.gradient {
+    margin-top: 82px;
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(to right, 
+        #3EBBDE  40%, 
+        #0E46FF   40%, 
+        #0E46FF   100%
+    );
+  
+}
+
+@media (max-width: 991px) {
+    .gradient {
+        margin-top: 62px;
+    }
+}
+
+.setBg h1 {
+    font-family: Roboto;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 1.1;
+    color: #2e324a;
+    font-weight: 900 !important;
+}
+
+.setBg h2 {
+    font-family: Roboto;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 1.1;
+    color: #2e324a;
+    font-weight: 900 !important;
+}
+
+.setBg p {
+    line-height: 1.8rem;
+    font-size: .95rem;
+    color: #656565;
+    margin: 20px 0 25px;
+    font-family: Roboto;
+}

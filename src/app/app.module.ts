@@ -55,6 +55,10 @@ import { SubscribeComponent } from './Blog-components/subscribe/subscribe.compon
 import { VideoComponent } from './Blog-components/video/video.component';
 import { HomeComponent2 } from './Blog-components/pages/home/home.component';
 import { BlogComponent } from './Blog-components/blog/blog.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { TermsConditionComponent } from './terms-condition/terms-condition.component';
+import { DisclaimerComponent } from './disclaimer/disclaimer.component';
+import { HeaderComponent } from './header/header.component';
 
 
 
@@ -105,7 +109,11 @@ import { BlogComponent } from './Blog-components/blog/blog.component';
     VideoComponent,
     BlogDetailsComponent,
     HomeComponent2,
-    BlogComponent
+    BlogComponent,
+    PrivacyPolicyComponent,
+    TermsConditionComponent,
+    DisclaimerComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

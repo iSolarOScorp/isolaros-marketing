@@ -29,6 +29,9 @@ import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-co
 import { PrivacyPolicyv2Component } from './privacy-policyv2/privacy-policyv2.component';
 import { HomeComponent2 } from './Blog-components/pages/home/home.component';
 import { BlogDetailsComponent } from './Blog-components/pages/blog-details/blog-details.component';
+import { TermsConditionComponent } from './terms-condition/terms-condition.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { DisclaimerComponent } from './disclaimer/disclaimer.component';
 
 const routes: Routes = [
     {path: '', component: ConstructionComponent},
@@ -62,6 +65,9 @@ const routes: Routes = [
         path : 'blog', component : HomeComponent2
     },
     {path: 'blog-details', component: BlogDetailsComponent},
+    {path :'terms-and-condition', component:TermsConditionComponent},
+    {path : 'privacy',component : PrivacyPolicyComponent},
+    {path : 'disclaimer',component:DisclaimerComponent}
 ];
 
 @NgModule({

@@ -1,0 +1,146 @@
+.navbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 999;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  .navbar.is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+            box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+    background-color: #ffffff !important;
+    -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+            animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  }
+  
+  .bg-light { 
+    background-color: #ffffff !important;
+  }
+  
+  .navbar-light .navbar-brand {
+    line-height: 1;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .navbar-light .navbar-nav {
+    margin-left: auto;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .navbar-light .navbar-nav .nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .navbar-light .navbar-nav .nav-item .nav-link {
+    padding: 0;
+    color: #000000;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    position: relative;
+    font-size: 15.5px;
+    font-weight: 600;
+  }
+  
+  .navbar-light .navbar-nav .nav-item .nav-link:hover {
+    color: #ee0979;
+  }
+  
+  .navbar-light .navbar-nav .nav-item .nav-link.active {
+    background: -webkit-gradient(linear, right top, left bottom, from(#ee0979), color-stop(#fc1c62), color-stop(#ff364a), color-stop(#ff512f), to(#ff6a00));
+    background: linear-gradient(to left bottom, #ee0979, #fc1c62, #ff364a, #ff512f, #ff6a00);
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .navbar-light .navbar-nav .nav-item.active a {
+    background: -webkit-gradient(linear, right top, left bottom, from(#ee0979), color-stop(#fc1c62), color-stop(#ff364a), color-stop(#ff512f), to(#ff6a00));
+    background: linear-gradient(to left bottom, #ee0979, #fc1c62, #ff364a, #ff512f, #ff6a00);
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .navbar-light .navbar-nav .nav-item:last-child {
+    padding-right: 0;
+  }
+  
+  .navbar-light .navbar-nav .nav-item:first-child {
+    padding-left: 0;
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .navbar {
+      border-bottom: 1px solid #eeeeee;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .navbar .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .navbar.is-sticky {
+      border-bottom: none;
+    }
+    .navbar-light .navbar-toggler {
+      color: #000000;
+      border: none;
+      padding: 0;
+    }
+    .navbar-light .navbar-toggler .burger-menu {
+      cursor: pointer;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+    }
+    .navbar-light .navbar-toggler .burger-menu span {
+      height: 2px;
+      width: 30px;
+      background: #000000;
+      display: block;
+      margin: 6px 0;
+      -webkit-transition: all .50s ease-in-out;
+      transition: all .50s ease-in-out;
+    }
+    .navbar-light .navbar-toggler .burger-menu.active span.top-bar {
+      -webkit-transform: rotate(45deg);
+              transform: rotate(45deg);
+      -webkit-transform-origin: 10% 10%;
+              transform-origin: 10% 10%;
+    }
+    .navbar-light .navbar-toggler .burger-menu.active span.middle-bar {
+      opacity: 0;
+    }
+    .navbar-light .navbar-toggler .burger-menu.active span.bottom-bar {
+      -webkit-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+      -webkit-transform-origin: 10% 90%;
+              transform-origin: 10% 90%;
+      margin-top: 5px;
+    }
+    .navbar-light .navbar-nav {
+      background-color: #ffffff;
+      border: 1px solid #eeeeee;
+      margin-top: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+    .navbar-light .navbar-nav .nav-item {
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 7px;
+      padding-bottom: 7px;
+    }
+  }
