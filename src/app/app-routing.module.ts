@@ -24,6 +24,7 @@ import { PlumbingComponent } from './components/templates/plumbing/plumbing.comp
 import { DataCollectionComponent } from './data-collection/data-collection.component';
 import { AppointmentComponent } from './appointment/appointment.component';
 import { AppointmentConfirmationComponent } from './appointment-confirmation/appointment-confirmation.component';
+import { NotQualifiedComponent } from './not-qualified/not-qualified.component';
 
 const routes: Routes = [
     {path: '', component: ConstructionComponent},
@@ -49,7 +50,8 @@ const routes: Routes = [
     {path: 'plumbing', component: PlumbingComponent},
     {path : 'survey',component : DataCollectionComponent},
     {path : 'appointment',component : AppointmentComponent},
-    {path : 'appointment-confirmed', component : AppointmentConfirmationComponent}
+    {path : 'appointment-confirmed', component : AppointmentConfirmationComponent},
+    {path : 'not-qualified',component : NotQualifiedComponent}
 ];
 
 @NgModule({

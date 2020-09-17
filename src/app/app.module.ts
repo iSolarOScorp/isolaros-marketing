@@ -38,6 +38,7 @@ import { AppointmentComponent } from './appointment/appointment.component';
 import { IgxCalendarModule, IgxIconModule } from 'igniteui-angular';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppointmentConfirmationComponent } from './appointment-confirmation/appointment-confirmation.component';
+import { NotQualifiedComponent } from './not-qualified/not-qualified.component';
 
 
 
@@ -71,7 +72,8 @@ import { AppointmentConfirmationComponent } from './appointment-confirmation/app
     CountdownComponent,
     DataCollectionComponent,
     AppointmentComponent,
-    AppointmentConfirmationComponent
+    AppointmentConfirmationComponent,
+    NotQualifiedComponent
   ],
   imports: [
     BrowserModule,

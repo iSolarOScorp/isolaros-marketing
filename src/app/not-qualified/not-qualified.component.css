@@ -1,5 +1,5 @@
 .body{
-    background-image: url("../../assets/new-project/BG.jpg");
+    background-image: url("src/assets/new-project/not-qualified-img/BG.png");
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
  
@@ -28,6 +28,3 @@
         display: none;
     }
 }
-/* .container{
-    /* margin-left: 45px; */
-    /* padding-left: 7px; */
