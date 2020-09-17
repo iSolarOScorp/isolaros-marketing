@@ -39,7 +39,7 @@ const routes: Routes = [
      {  path: 'getting-started', children: [
     {
     path: '', component: ConstructionComponent
-    },
+    }, 
     {path: 'restaurant-1', component: Restaurant1Component},
     {path: 'travel-1', component: Travel1Component},
     {path: 'travel-2', component: Travel2Component},
