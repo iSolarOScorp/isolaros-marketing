@@ -1,0 +1,279 @@
+/* your styles go here */
+
+.hero {
+    background-image: url("../img/banner.png");
+    height: 870px;
+    position: relative;
+    top: -100px;
+}
+
+nav.navbar a.nav-link {
+    color: #fff;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.hero h1,
+.hero h6,
+p {
+    color: #fff;
+}
+
+.hero h1,
+.hero h6 {
+    text-transform: uppercase;
+}
+
+.hero h6 {
+    text-transform: uppercase;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.blue-box {
+    background: #352e63;
+    margin-top: 150px;
+    padding: 40px;
+}
+
+.blue-box h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.blue-box input,
+.blue-box textarea {
+    color: #93959d;
+    font-size: 18px;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.blue-box a {
+    padding: 26px 22px 22px;
+    width: 100%;
+}
+
+.features h2 {
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.features .text h5 {
+    color: #352e63;
+    font-size: 1rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.features .text h1 {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 38px;
+    text-transform: uppercase;
+}
+
+.features .text p {
+    margin: 50px 0;
+}
+
+.features .text h4 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.features .list h2 {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 23px;
+}
+
+.features .text .list {
+    background-image: url("../img/list.png");
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    margin-top: 30px;
+}
+
+.browser h2 {
+    font-size: 18px;
+    font-weight: normal;
+    padding: 40px 0;
+    text-transform: uppercase;
+}
+
+.browser h1 {
+    font-size: 40px;
+    font-weight: normal;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.browser img {
+    width: 100%;
+    height: 145px;
+}
+
+section.browser {
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    padding: 80px 0 0;
+}
+
+.hand-line {
+    width: 100%;
+    float: left;
+    margin: 58px 0;
+}
+
+.hand-line p {
+    background-image: url("../img/bg-2.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 129px;
+    padding: 75px 0;
+    background-position-x: center;
+}
+
+.owl-carousel .owl-item {
+    width: 990px !important;
+}
+
+.owl-carousel .owl-item img {
+    position: relative;
+    left: 403px;
+}
+
+.testimonials h6 {
+    color: #2f60ac;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.testimonials h2 {
+    color: #000;
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 32px;
+    text-transform: uppercase;
+}
+
+section.newsletter {
+    padding-top: 0;
+    background: #352e63;
+    border-top-left-radius: 50px;
+    padding-bottom: 180px;
+}
+
+section.newsletter h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 92px;
+    text-transform: uppercase;
+}
+
+section.newsletter p {
+    margin: 30px 0;
+}
+
+.navbar-expand-lg .navbar-collapse.disnone-head {
+    display: none !important;
+}
+
+footer .btn {
+    padding: 14px 20px 12px;
+}
+
+.big a {
+    font-size: 30px;
+}
+
+@media (max-width: 1200px) {
+    .browser h2 {
+        font-size: 14px;
+    }
+    .browser img {
+        width: 100%;
+        height: 120px;
+    }
+}
+
+@media (max-width: 991px) {
+    .hero {
+        height: auto;
+        background-repeat: no-repeat;
+    }
+    .blue-box {
+        margin-top: 50px;
+    }
+    .hero h6 {
+        margin-top: 50px;
+    }
+    section {
+        padding: 50px 0 0;
+    }
+    .browser h2 {
+        font-size: 18px;
+    }
+    .browser img {
+        width: 100%;
+        height: auto;
+    }
+    section.browser .nav-tabs a {
+        margin-bottom: 40px;
+    }
+    section.browser {
+        background: #352e63;
+    }
+    .hand-line {
+        margin: 0px 0 45px;
+    }
+    .hand-line p {
+        padding: 75px 0 0;
+    }
+    .disnone {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-collapse.disnone-head {
+        display: block !important;
+    }
+    .navbar-expand-lg .navbar-collapse.disnone-head.collapse {
+        display: none !important;
+    }
+    .owl-carousel .owl-item {
+        width: 100% !important;
+    }
+    footer .btn {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hand-line p {
+        padding: 65px 0 0;
+        font-size: 15px;
+    }
+    .owl-carousel .owl-item img {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .blue-box {
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+}

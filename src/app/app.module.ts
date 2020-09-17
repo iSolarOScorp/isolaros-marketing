@@ -37,6 +37,7 @@ import { GooglePlaceModule } from 'ngx-google-places-autocomplete';
 import { AppointmentComponent } from './appointment/appointment.component';
 import { IgxCalendarModule, IgxIconModule } from 'igniteui-angular';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AppointmentConfirmationComponent } from './appointment-confirmation/appointment-confirmation.component';
 
 
 
@@ -69,7 +70,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     PlumbingComponent,
     CountdownComponent,
     DataCollectionComponent,
-    AppointmentComponent
+    AppointmentComponent,
+    AppointmentConfirmationComponent
   ],
   imports: [
     BrowserModule,

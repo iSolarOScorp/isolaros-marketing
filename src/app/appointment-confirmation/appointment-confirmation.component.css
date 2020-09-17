@@ -1,0 +1,33 @@
+.body{
+    background-image: url("src/assets/new-project/BG.jpg");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+ 
+    margin-bottom: 0;
+    height: 100vh;
+    margin-top: -5px;
+    padding-top: 1;
+
+}
+
+.logo {
+   margin-top: 20px;
+  
+}
+
+/* ********************** Mobile Mode ********************** */
+@media only screen and (max-width: 675px) {
+    .desktop-view {
+        display: none;
+    }
+}
+
+/* ********************** Split Screen & Tablet Mode & Desktop ********************** */
+@media only screen and (min-width: 675px) {
+    .mobile-view {
+        display: none;
+    }
+}
+/* .container{
+    /* margin-left: 45px; */
+    /* padding-left: 7px; */
