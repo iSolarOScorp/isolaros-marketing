@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-data-collection',
   templateUrl: './data-collection.component.html',
-//   styleUrls: ['./data-collection.component.scss']
+  styleUrls: ['./data-collection.component.scss']
 })
 export class DataCollectionComponent implements OnInit {
   title = 'Reactive Forms';

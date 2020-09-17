@@ -1,0 +1,274 @@
+<body id="body">
+    <!-- <section id="service p-0" style="padding: 0; background-color: rgb(60, 60, 60);">
+        <div class="container">
+            <div class="logodiv">
+
+                    <img src="img/logo-white.png" class="pull-left seclogoclass" alt="member">
+            </div>
+        </div>
+    </section> -->
+
+    <main class="site-content" role="main">
+        <div class="desktop-view">
+            <div class="">
+                <div class="apSec-title text-center">
+                    <h2 class="aptxtone">Almost Done... </h2>
+                    <p class="">Pick Which Date & Time Works Best For You 👌.</p>
+                </div>
+            </div>
+            <!-- <div>
+                  <img src="assets/quote.JPG">
+                  <img src="assets/appointment.JPG">
+              </div> -->
+            <div class="">
+                <div class="steponebox text-left">
+                    <h2 class="apstep2txtone"><span class="onespan">1</span><a href="#">Choose Appointment</a></h2>
+                    <div class="steponebox text-left">
+                        <h4 class="innertext"><a href="#" style="font-size: 18px;">Consultation</a></h4>
+                        <h5>30 minutes</h5>
+                    </div>
+                    <!-- table -->
+                    <div class="table-responsive ">
+
+                        <!--Table-->
+                        <table class="table table-borderless">
+
+                            <!--Table head-->
+                            <thead>
+                                <tr style="background: #f9f9f9; border-bottom: none">
+                                    <th>
+                                        <span style="font-size: 12px;">THIS WEEK</span><br>
+                                        <span class="daysspan">{{day}}</span><br> {{m}} {{todaysDate}}
+                                        <!-- <span> {{month}} 8</span>  -->
+                                    </th>
+
+                                    <th class="th-lg">
+                                        <span class="daysspan">{{day2}}</span><br> {{tomorrowMonth}} {{tomorrowDate}}
+                                    </th>
+
+                                    <th class="th-lg">
+                                        <span class="daysspan">{{day3}}</span><br> {{thirdMonth}} {{thirdDate}}
+                                    </th>
+
+                                    <th class="th-lg">
+                                        <span class="daysspan">{{day4}}</span><br> {{forthMonth}} {{forthDate}}
+                                    </th>
+
+                                    <th class="th-lg">
+
+                                        <span class="daysspan">
+                                   {{day5}}
+                                   
+                                </span><br> {{fifthMonth}} {{fifthDate}}
+                                    </th>
+                                </tr>
+                            </thead>
+                            <!--Table head-->
+
+                            <!-- Table body -->
+                            <tbody>
+                                <tr>
+                                    <td scope='row' *ngFor="let i of t1; let x = index">
+                                        <button class='table-border' (click)="onClick('9:00 AM',x)">{{i}}</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td scope='row' *ngFor="let i of t2; let x = index">
+                                        <button class='table-border' (click)="onClick('11:00 AM',x)">{{i}}</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td scope='row' *ngFor="let i of t3;let x = index">
+                                        <button class='table-border' (click)="onClick('1:00 PM',x)">{{i}}</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td scope='row' *ngFor="let i of t4;let x = index">
+                                        <button class='table-border' (click)="onClick('3:00 PM',x)">{{i}}</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td scope='row' *ngFor="let i of t5;let x = index">
+                                        <button class='table-border' (click)="onClick('5:00 PM',x)">{{i}}</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td scope='row' *ngFor="let i of t6;let x = index">
+                                        <button class='table-border' (click)="onClick('7:00 PM',x)">{{i}}</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--   MOBILE VERSION ---------------------------                  -->
+        <!--   MOBILE VERSION ---------------------------                  -->
+        <!--   MOBILE VERSION ---------------------------                  -->
+        <!--   MOBILE VERSION ---------------------------                  -->
+
+
+        <div class="mobile-view">
+
+
+            <!-- back button -->
+            
+
+
+
+            <div class="text-left">
+                <div class="text-left">
+                    <i routerLink = "/getting-started/survey" style="color: limegreen; size: 40px;" class="fas fa-long-arrow-alt-left"></i>
+                    <h5>Choose Appointment</h5>
+                    <h6 style="color: limegreen;">Consultation</h6>
+                    <p style="padding:0;margin: 0; color: lightgrey;">30 Minutes</p>
+                    <!-- <h2 class="apstep2txtone"><span class="onespan">1</span><a href="#">Choose Appointment</a></h2> -->
+                    <!-- <div class="text-left">
+                        <h4 class="innertext"><a href="#" style="font-size: 18px;">Consultation</a></h4>
+                        <h5>30 minutes</h5>
+                    </div> -->
+                    <igx-calendar #calendar [hasHeader]="false" (onSelection)="onSelection($event)"></igx-calendar>
+      <div style="max-width: 100%;
+                  background-color: white;
+                  padding: 10px 10px 20px 10px;
+                  box-shadow: 2px 3px 4px lightgray;
+                  border-radius: 10px; ">
+
+          <div style="border-bottom: 1px solid lightgray;
+                      padding-bottom: 10px;
+                      text-align: center;
+                      margin-bottom: 15px;
+                        ">
+            {{mobileDay}} 
+          </div>
+          <div>
+              
+            <input *ngIf = "selectDate[0] == false" (click) = "selectMButton(0,'9:am')" type="button" name="9:00 am" value="9:00 am" style="background-color: white;">
+            <input *ngIf = "selectDate[0] == true" (click) = "selectMButton(0,'9:am')" type="button" name="9:00 am" value="9:00 am" style="background-color: limegreen;border-radius: 5px;color: white;">
+            <input *ngIf = "selectDate[1] == false" (click) = "selectMButton(1,'11:am')" type="button" name="11:00 am" value="11:00 am" style="background-color: white;">
+            <input *ngIf = "selectDate[1] == true" (click) = "selectMButton(1,'11:am')" type="button" name="11:00 am" value="11:00 am" style="background-color: limegreen;border-radius: 5px;color: white;">
+            <input *ngIf = "selectDate[2] == false" (click) = "selectMButton(2,'1:pm')" type="button" name="1:00 pm" value="1:00 pm" style="background-color: white;">
+            <input *ngIf = "selectDate[2] == true" (click) = "selectMButton(2,'1:pm')" type="button" name="1:00 pm" value="1:00 am" style="background-color: limegreen;border-radius: 5px;color: white;">
+            <input *ngIf = "selectDate[3] == false" (click) = "selectMButton(3,'3:pm')" type="button" name="3:00 pm" value="3:00 pm" style="background-color: white;">
+            <input *ngIf = "selectDate[3] == true" (click) = "selectMButton(3,'3:pm')" type="button" name="3:00 pm" value="3:00 pm" style="background-color:limegreen;border-radius: 5px;color: white;">
+            <input *ngIf = "selectDate[4] == false" (click) = "selectMButton(4,'5:pm')" type="button" name="5:00 pm" value="5:00 pm" style="background-color: white;">
+            <input *ngIf = "selectDate[4] == true" (click) = "selectMButton(4,'5:pm')" type="button" name="5:00 pm" value="5:00 pm" style="background-color:limegreen;border-radius: 5px;color: white;">
+            <input *ngIf = "selectDate[5] == false" (click) = "selectMButton(5,'7:pm')" type="button" name="7:00 pm" value="7:00 pm" style="background-color: white;">
+            <input *ngIf = "selectDate[5] == true" (click) = "selectMButton(5,'7:pm')" type="button" name="7:00 pm" value="7:00 pm" style="background-color:limegreen;border-radius: 5px;color: white;">
+            </div>
+          </div>
+          <div style="background-color: limegreen; width: 70%; margin-left: 10%;margin-right: 20%;margin-top: 20px; height: 40px; border-radius: 20px;"> 
+            <button style="text-align: center; color: white;margin-left: 12%;margin-top: 5px;"(click) = "bookAnAppointment()">Book An Appointment</button>
+           </div>       
+        </div>	
+                    
+               
+                </div>
+                <!-- calendar -->
+            
+
+              
+
+               
+                <!-- options -->
+            
+
+            
+            </div>
+       
+
+        <!-- <div class="">
+                <div class="steponebox text-left">
+                    <h2 class="apstep2txtone"><span class="onespan">2</span><a href="#">Confirmation</a></h2>
+
+                    <div class="conformDiv" style="display: none;">
+                        <div class="confirm-name">
+                            <span class="babel-ignore appointment-type">Consultation</span>
+                        </div>
+                        <h2 class="appointment-datetime">
+                            <span class="babel-ignore">
+                                <i class="fa fa-clock-o appt-sign confirmed-sign hidden-xs"></i>
+                                
+                                <span class="hidden-xs">Thursday, </span>March 19, 2020<br>
+                                <span class="appointment-time">2:00pm</span>
+                            </span>
+                
+                                        
+                            <span class="appt-actions">
+                                                                                                                                                    <a href="#" class="" id="appt-reschedule">Reschedule</a>
+                            </span>
+                        </h2>
+                        <div  class="mkbtnDiv">
+                            <button type="submit" id="finalpage" class="btn btn-primary mk-btn" value="">Add to iCal/Outlook</button>
+                            <button type="submit" class="btn btn-primary mk-btn" value="">Add to Google</button>
+                        </div>
+                        
+
+                    </div>
+                </div>
+                
+            </div>
+                 -->
+
+
+
+
+        <!-- end Service section -->
+
+
+
+    </main>
+
+    <footer id="footer" style="margin: 50px 0 40px 0;">
+        <div class="container">
+            <div style="text-align: center;">
+                <div class="footer-content">
+                    <a href="/getting-started/privacy-policy" target="_blank" class="secpageFooter">Privacy Policy</a> |
+                    <a href="/getting-started/terms" target="_blank" class="secpageFooter">Terms & Conditions</a>
+                    <p class="secpageFooterP">© Copyright 2020 - iSolarOS, All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Essential jQuery Plugins
+    ================================================== -->
+
+    <!-- Main jQuery -->
+
+    <!-- <script src="js/jquery-1.11.1.min.js"></script> -->
+    <!-- Twitter Bootstrap -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <!-- Single Page Nav -->
+    <!-- <script src="js/jquery.singlePageNav.min.js"></script> -->
+    <!-- jquery.fancybox.pack -->
+    <!-- <script src="js/jquery.fancybox.pack.js"></script> -->
+    <!-- Google Map API -->
+    <!-- <script src="http://maps.google.com/maps/api/js?sensor=false"></script> -->
+    <!-- Owl Carousel -->
+    <!-- <script src="js/owl.carousel.min.js"></script> -->
+    <!-- jquery easing -->
+    <!-- <script src="js/jquery.easing.min.js"></script> -->
+    <!-- Fullscreen slider -->
+    <!-- <script src="js/jquery.slitslider.js"></script> -->
+    <!-- <script src="js/jquery.ba-cond.min.js"></script> -->
+    <!-- onscroll animation -->
+    <!-- <script src="js/wow.min.js"></script> -->
+    <!-- Custom Functions -->
+    <!-- <script src="js/main.js"></script> -->
+    <!-- <script> -->
+    <!-- $(document).ready(function(){ -->
+
+
+    <!-- $('.table-border').click(function() -->
+    <!-- { -->
+    <!-- $(".conformDiv").show(); -->
+    <!-- setTimeout(function(){ window.location.href='lead-funnel-submissions.php'; }, 3000);        -->
+    <!-- }); -->
+
+    <!-- }) -->
+    <!-- </script> -->
+</body>
