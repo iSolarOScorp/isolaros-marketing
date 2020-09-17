@@ -25,6 +25,8 @@ import { DataCollectionComponent } from './data-collection/data-collection.compo
 import { AppointmentComponent } from './appointment/appointment.component';
 import { AppointmentConfirmationComponent } from './appointment-confirmation/appointment-confirmation.component';
 import { NotQualifiedComponent } from './not-qualified/not-qualified.component';
+import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-conditions.component';
+import { PrivacyPolicyv2Component } from './privacy-policyv2/privacy-policyv2.component';
 
 const routes: Routes = [
     {path: '', component: ConstructionComponent},
@@ -51,7 +53,9 @@ const routes: Routes = [
     {path : 'survey',component : DataCollectionComponent},
     {path : 'appointment',component : AppointmentComponent},
     {path : 'appointment-confirmed', component : AppointmentConfirmationComponent},
-    {path : 'not-qualified',component : NotQualifiedComponent}
+    {path : 'not-qualified',component : NotQualifiedComponent},
+    {path : 'terms', component : TermsAndConditionsComponent},
+    {path : 'privacy-policy', component : PrivacyPolicyv2Component}
 ];
 
 @NgModule({

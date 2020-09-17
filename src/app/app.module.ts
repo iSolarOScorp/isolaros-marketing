@@ -39,6 +39,8 @@ import { IgxCalendarModule, IgxIconModule } from 'igniteui-angular';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppointmentConfirmationComponent } from './appointment-confirmation/appointment-confirmation.component';
 import { NotQualifiedComponent } from './not-qualified/not-qualified.component';
+import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-conditions.component';
+import { PrivacyPolicyv2Component } from './privacy-policyv2/privacy-policyv2.component';
 
 
 
@@ -73,7 +75,9 @@ import { NotQualifiedComponent } from './not-qualified/not-qualified.component';
     DataCollectionComponent,
     AppointmentComponent,
     AppointmentConfirmationComponent,
-    NotQualifiedComponent
+    NotQualifiedComponent,
+    TermsAndConditionsComponent,
+    PrivacyPolicyv2Component
   ],
   imports: [
     BrowserModule,

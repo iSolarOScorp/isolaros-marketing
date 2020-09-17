@@ -1,0 +1,31 @@
+.terms-body {
+    background-color: rgb(234,237,241);
+
+
+}
+
+.bgg {
+    /* margin-top:20px; */
+    /* background-color:blue; */
+     /* rgb(233,236,241); */
+    margin-left:  13%;
+    margin-right: 13%;
+}
+.content23 {
+    margin-top: 10%;
+    /* padding-top: 40px; */
+    /* padding-bottom: 40px; */
+    background-color: rgb(255, 255, 255);
+     /* margin-top: 30px; */
+    border : 3px solid rgb(158, 167, 178);
+
+    /* outline: none; */
+    /* background-color: rgb(255, 255, 255); */
+    /* opacity: 1; */
+    /* position: relative; */
+    /* top: 0px; */
+}
+.heading {
+    text-align: center;
+    color: rgb(90, 101, 115);
+}
