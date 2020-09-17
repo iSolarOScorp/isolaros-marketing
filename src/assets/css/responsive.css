@@ -1,0 +1,2437 @@
+@media only screen and (max-width: 767px) {
+  .construction .navbar-area {
+    padding-top: 20px;
+  }
+  .construction .coming-soon-content {
+    text-align: center;
+  }
+  .construction .coming-soon-content h5 {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  .construction .coming-soon-content h1 {
+    font-size: 38px;
+  }
+  .construction .coming-soon-content p {
+    max-width: 100%;
+    font-size: 13px;
+    margin-top: 5px;
+  }
+  .construction .coming-soon-content #timer {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .construction .coming-soon-content #timer div {
+    font-size: 38px;
+    margin-left: 11px;
+    margin-right: 11px;
+  }
+  .construction .coming-soon-content #timer div span {
+    display: block;
+    font-size: 11px;
+    margin-left: 0;
+    margin-top: -5px;
+  }
+  .construction .coming-soon-content .notify-btn {
+    font-size: 14px;
+  }
+  .construction .footer-area {
+    text-align: center;
+  }
+  .construction .footer-area p {
+    font-size: 13px;
+  }
+  .construction .footer-area ul {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .construction .footer-area ul li span {
+    display: none;
+  }
+  .construction .footer-area ul li a {
+    font-size: 10.5px;
+  }
+  .restaurant-1 .navbar-area {
+    padding-top: 20px;
+  }
+  .restaurant-1 .navbar-menu .logo {
+    display: block;
+  }
+  .restaurant-1 .coming-soon-content .logo {
+    display: none;
+  }
+  .restaurant-1 .coming-soon-content h5 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .restaurant-1 .coming-soon-content h1 {
+    max-width: 100%;
+    line-height: 1.2;
+    font-size: 38px;
+  }
+  .restaurant-1 .coming-soon-content p {
+    font-size: 15px;
+    margin-top: 6px;
+  }
+  .restaurant-1 .coming-soon-content #timer div {
+    font-size: 38px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .restaurant-1 .coming-soon-content #timer div span {
+    font-size: 16px;
+    margin-top: -6px;
+  }
+  .travel-1 .coming-soon-content #timer {
+    margin-bottom: 15px;
+  }
+  .travel-1 .coming-soon-content #timer div {
+    font-size: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .travel-1 .coming-soon-content #timer div span {
+    font-size: 14px;
+    margin-top: -5px;
+  }
+  .travel-1 .coming-soon-content #timer div::before {
+    display: none;
+  }
+  .travel-1 .coming-soon-content h1 {
+    font-size: 43px;
+    line-height: 1.1;
+  }
+  .travel-1 .coming-soon-content p {
+    font-size: 13px;
+    margin-top: 25px;
+  }
+  .travel-1 .coming-soon-content .btn-box .btn {
+    padding: 13px 20px;
+    font-size: 13px;
+  }
+  .travel-2 .coming-soon-content #timer {
+    margin-bottom: 15px;
+  }
+  .travel-2 .coming-soon-content #timer div {
+    font-size: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .travel-2 .coming-soon-content #timer div span {
+    font-size: 14px;
+    margin-top: -5px;
+  }
+  .travel-2 .coming-soon-content #timer div::before {
+    display: none;
+  }
+  .travel-2 .coming-soon-content h1 {
+    font-size: 43px;
+    line-height: 1.1;
+  }
+  .travel-2 .coming-soon-content p {
+    font-size: 13px;
+    margin-top: 25px;
+  }
+  .travel-2 .coming-soon-content .btn-box .btn {
+    padding: 13px 20px;
+    font-size: 13px;
+  }
+  .restaurant-2 .navbar-area {
+    padding-top: 20px;
+  }
+  .restaurant-2 .coming-soon-content {
+    text-align: center;
+  }
+  .restaurant-2 .coming-soon-content h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .restaurant-2 .coming-soon-content h1 {
+    line-height: 50px;
+    font-size: 35px;
+  }
+  .restaurant-2 .coming-soon-content p {
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+  .restaurant-2 .coming-soon-content .newsletter-form {
+    margin-top: 35px;
+  }
+  .restaurant-2 .coming-soon-content .newsletter-form button {
+    font-size: 13px;
+  }
+  .restaurant-2 .count-down-timer {
+    margin-top: 50px;
+  }
+  .restaurant-2 .count-down-timer #timer div {
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .restaurant-2 .count-down-timer #timer div span {
+    margin-top: -5px;
+    font-size: 14px;
+  }
+  .restaurant-3 .navbar-area {
+    padding-top: 20px;
+    text-align: center;
+  }
+  .restaurant-3 .count-down-timer {
+    text-align: center;
+    margin-top: 0;
+  }
+  .restaurant-3 .count-down-timer #timer div {
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .restaurant-3 .count-down-timer #timer div span {
+    text-transform: capitalize;
+    margin-top: -4px;
+  }
+  .restaurant-3 .main-banner-content {
+    text-align: center;
+  }
+  .restaurant-3 .main-banner-content h1 {
+    line-height: 45px;
+    font-size: 35px;
+  }
+  .restaurant-3 .main-banner-content p {
+    max-width: 100%;
+    font-size: 14.5px;
+    margin-top: 15px;
+  }
+  .restaurant-3 .main-banner-content .newsletter-form {
+    margin-top: 30px;
+  }
+  .restaurant-3 .main-banner-content .newsletter-form .input-newsletter {
+    width: 100%;
+  }
+  .restaurant-3 .main-banner-content .newsletter-form button {
+    position: relative;
+    right: 0;
+    height: auto;
+    padding: 15px 30px;
+    line-height: initial;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .real-estate .navbar-area {
+    padding-top: 20px;
+  }
+  .real-estate .navbar-menu .logo {
+    display: block;
+  }
+  .real-estate .coming-soon-area {
+    height: 100%;
+    padding-top: 140px;
+    padding-bottom: 100px;
+  }
+  .real-estate .coming-soon-content {
+    text-align: center;
+    max-width: 100%;
+  }
+  .real-estate .coming-soon-content .logo {
+    display: none;
+  }
+  .real-estate .coming-soon-content h2 {
+    font-size: 30px;
+  }
+  .real-estate .coming-soon-content p {
+    font-size: 13px;
+    max-width: 100%;
+    margin-top: 15px;
+  }
+  .real-estate .coming-soon-content .newsletter-form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .real-estate .coming-soon-content .newsletter-form .input-newsletter {
+    height: 50px;
+    font-size: 13px;
+  }
+  .real-estate .coming-soon-content .newsletter-form button {
+    position: relative;
+    height: auto;
+    line-height: initial;
+    font-size: 14px;
+    padding: 15px 30px;
+    margin-top: 15px;
+  }
+  .real-estate .coming-soon-content #timer {
+    margin-top: 30px;
+  }
+  .real-estate .coming-soon-content #timer div {
+    border-width: 10px;
+    padding-top: 10px;
+    width: 110px;
+    height: 110px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  .real-estate .coming-soon-content #timer div span {
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 12px;
+  }
+  .real-estate .coming-soon-image {
+    margin-right: 0;
+    margin-top: 45px;
+  }
+  .creative-1 .coming-soon-content {
+    max-width: 100%;
+  }
+  .creative-1 .coming-soon-content h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .creative-1 .coming-soon-content p {
+    font-size: 13px;
+    max-width: 100%;
+  }
+  .creative-1 .coming-soon-content #timer {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  .creative-1 .coming-soon-content #timer div {
+    font-size: 32px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .creative-1 .coming-soon-content #timer div span {
+    font-size: 13px;
+    text-transform: capitalize;
+    margin-top: 0px;
+  }
+  .creative-1 .coming-soon-content .newsletter-form .input-newsletter {
+    width: 100%;
+    height: 50px;
+    padding-left: 12px;
+    font-size: 14px;
+  }
+  .creative-1 .coming-soon-content .newsletter-form button {
+    position: relative;
+    height: auto;
+    line-height: initial;
+    padding: 15px 30px;
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  .creative-1 .shape1, .creative-1 .shape2 {
+    display: none;
+  }
+  .creative-1 .footer-area {
+    padding-bottom: 30px;
+  }
+  .creative-1 .footer-area ul li span {
+    display: none;
+  }
+  .creative-1 .footer-area ul li a {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+  }
+  .doctor .coming-soon-area {
+    height: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .doctor .coming-soon-content {
+    max-width: 100%;
+    text-align: center;
+  }
+  .doctor .coming-soon-content .logo {
+    margin-bottom: 35px;
+  }
+  .doctor .coming-soon-content h1 {
+    line-height: 1.2;
+    font-size: 32px;
+  }
+  .doctor .coming-soon-content h5 {
+    font-size: 15px;
+  }
+  .doctor .coming-soon-content p {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  .doctor .coming-soon-content .btn-box {
+    margin-top: 25px;
+  }
+  .doctor .coming-soon-content .btn-box .btn {
+    padding: 14px 20px 13px 20px;
+    font-size: 12px;
+  }
+  .doctor .coming-soon-content .btn-box .btn i {
+    display: none;
+  }
+  .doctor #timer {
+    position: relative;
+    right: 0;
+    text-align: center;
+    bottom: 0;
+    margin-top: 30px;
+  }
+  .doctor #timer div {
+    margin-top: 10px;
+    font-size: 35px;
+    padding-top: 20px;
+  }
+  .doctor #timer div span {
+    font-size: 12.5px;
+    margin-top: -3px;
+  }
+  .doctor .shape1 {
+    left: 0;
+    top: 0;
+  }
+  .doctor .shape2 {
+    display: none;
+  }
+  .it .coming-soon-content {
+    max-width: 100%;
+  }
+  .it .coming-soon-content h1 {
+    font-size: 37px;
+    line-height: 1.2;
+  }
+  .it .coming-soon-content p {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  .it .coming-soon-content #timer {
+    margin-top: 20px;
+  }
+  .it .coming-soon-content #timer div {
+    font-size: 40px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .it .coming-soon-content #timer div span {
+    font-size: 14px;
+    margin-top: -5px;
+  }
+  .it .coming-soon-content #timer div::before {
+    display: none;
+  }
+  .it .coming-soon-content .newsletter-form {
+    margin-top: 35px;
+  }
+  .it .coming-soon-content .newsletter-form .input-newsletter {
+    height: 55px;
+    padding-left: 13px;
+    font-size: 15px;
+  }
+  .it .coming-soon-content .newsletter-form button {
+    position: relative;
+    height: auto;
+    padding: 14px 30px;
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  .agency .navbar-area {
+    padding-top: 20px;
+  }
+  .agency .main-banner {
+    height: 100%;
+    padding-top: 155px;
+    padding-bottom: 130px;
+  }
+  .agency .main-banner-content {
+    max-width: 100%;
+    text-align: center;
+  }
+  .agency .main-banner-content h1 {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .agency .main-banner-content p {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  .agency .main-banner-content .newsletter-form {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+  .agency .main-banner-content .newsletter-form .input-newsletter {
+    width: 100%;
+  }
+  .agency .main-banner-content .newsletter-form button {
+    position: relative;
+    height: auto;
+    line-height: initial;
+    padding: 15px 30px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .agency .countdown-timer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 290px;
+    height: 290px;
+    text-align: center;
+    margin: 40px auto 0;
+  }
+  .agency .countdown-timer h3 {
+    font-size: 20px;
+  }
+  .agency .countdown-timer #timer div {
+    font-size: 35px;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .agency .countdown-timer #timer div::before {
+    display: none;
+  }
+  .agency .countdown-timer #timer div span {
+    font-size: 14px;
+    margin-top: -3px;
+  }
+  .agency .footer-area {
+    text-align: center;
+  }
+  .agency .footer-area ul li span {
+    display: none;
+  }
+  .seo .navbar-area {
+    padding-top: 20px;
+  }
+  .seo .navbar-menu .burger-menu {
+    border-color: #000000;
+  }
+  .seo .navbar-menu .burger-menu span {
+    background: #000000;
+  }
+  .seo .main-banner {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 110px;
+  }
+  .seo .main-banner::before {
+    display: none;
+  }
+  .seo .main-banner-content {
+    text-align: center;
+    max-width: 100%;
+  }
+  .seo .main-banner-content #timer div {
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .seo .main-banner-content #timer div::before {
+    display: none;
+  }
+  .seo .main-banner-content #timer div span {
+    text-transform: capitalize;
+    margin-top: -4px;
+  }
+  .seo .main-banner-content h1 {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+  .seo .main-banner-content p {
+    margin-top: 14px;
+    font-size: 13px;
+    max-width: 100%;
+  }
+  .seo .main-banner-content .newsletter-form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .seo .main-banner-content .newsletter-form .input-newsletter {
+    height: 55px;
+    font-size: 14.5px;
+  }
+  .seo .main-banner-content .newsletter-form button {
+    position: relative;
+    height: auto;
+    line-height: initial;
+    padding: 15px 30px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .seo .main-banner-image {
+    left: 0;
+    bottom: 0;
+    margin-top: 50px;
+  }
+  .seo .footer-area {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .seo .footer-area ul li span {
+    display: none;
+  }
+  .creative-2 .coming-soon-content {
+    text-align: center;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .creative-2 .coming-soon-content .logo {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 25px;
+  }
+  .creative-2 .coming-soon-content h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  .creative-2 .coming-soon-content form {
+    max-width: 100%;
+  }
+  .creative-2 .coming-soon-content form .btn {
+    padding: 15px 28px;
+    position: relative;
+    height: auto;
+    line-height: initial;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+  .creative-2 .coming-soon-content .social {
+    margin-top: 35px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: relative;
+  }
+  .creative-2 .coming-soon-content .social ul li a {
+    width: 33px;
+    height: 33px;
+    line-height: 34px;
+    font-size: 13px;
+  }
+  .creative-2 .coming-soon-image {
+    background-image: unset;
+    width: auto;
+    height: auto;
+  }
+  .creative-2 .coming-soon-image img {
+    display: block;
+  }
+  .creative-2 .coming-soon-time {
+    background-image: unset;
+  }
+  .creative-2 .coming-soon-time img {
+    display: block;
+  }
+  .creative-2 .coming-soon-time #timer {
+    z-index: 2;
+    max-width: 100%;
+  }
+  .creative-2 .coming-soon-time #timer div {
+    width: 90px;
+    height: 90px;
+    padding-top: 15px;
+    font-size: 28px;
+    font-weight: 900;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .creative-2 .coming-soon-time #timer div span {
+    font-size: 10px;
+    margin-top: 3px;
+  }
+  .creative-2 .coming-soon-time::before {
+    z-index: 1;
+  }
+  .creative-3 .coming-soon-content {
+    text-align: center;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .creative-3 .coming-soon-content .logo {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 25px;
+  }
+  .creative-3 .coming-soon-content h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  .creative-3 .coming-soon-content form {
+    max-width: 100%;
+  }
+  .creative-3 .coming-soon-content form .btn {
+    padding: 15px 28px;
+    position: relative;
+    height: auto;
+    line-height: initial;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+  .creative-3 .coming-soon-content .social {
+    margin-top: 35px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: relative;
+  }
+  .creative-3 .coming-soon-content .social ul li a {
+    width: 33px;
+    height: 33px;
+    line-height: 34px;
+    font-size: 13px;
+  }
+  .creative-3 .coming-soon-content #timer div {
+    font-size: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .creative-3 .coming-soon-content #timer div span {
+    text-transform: capitalize;
+    font-size: 14px;
+  }
+  .creative-3 .coming-soon-content #timer div::before {
+    display: none;
+  }
+  .creative-3 .coming-soon-image {
+    background-image: unset;
+    width: auto;
+    height: auto;
+  }
+  .creative-3 .coming-soon-image img {
+    display: block;
+  }
+  .ico .navbar-area {
+    padding-top: 20px;
+  }
+  .ico .coming-soon-area {
+    padding-bottom: 80px;
+    padding-top: 120px;
+  }
+  .ico .coming-soon-area .container-fluid {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+  .ico .coming-soon-image {
+    margin-top: 0;
+    padding-right: 0;
+  }
+  .ico .coming-soon-content {
+    height: 100%;
+    max-width: 100%;
+    margin-top: 35px;
+    text-align: center;
+    padding-top: 0;
+    padding-left: 0;
+  }
+  .ico .coming-soon-content h5 {
+    font-size: 14px;
+  }
+  .ico .coming-soon-content h1 {
+    line-height: 1.2;
+    font-size: 32px;
+  }
+  .ico .coming-soon-content p {
+    margin-top: 15px;
+    font-size: 13px;
+  }
+  .ico .coming-soon-content #timer {
+    margin-top: 30px;
+  }
+  .ico .coming-soon-content #timer div {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .ico .coming-soon-content #timer div::before {
+    display: none;
+  }
+  .ico .coming-soon-content #timer div span {
+    text-transform: capitalize;
+    margin-top: 0;
+  }
+  .gym .coming-soon-image {
+    width: auto;
+    height: auto;
+    background-image: unset;
+  }
+  .gym .coming-soon-image img {
+    display: block;
+  }
+  .gym .coming-soon-image .logo {
+    display: none;
+  }
+  .gym .coming-soon-image #timer {
+    right: 15px;
+    bottom: 10px;
+  }
+  .gym .coming-soon-image #timer div {
+    font-size: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .gym .coming-soon-image #timer div span {
+    text-transform: capitalize;
+    font-size: 13px;
+    margin-top: -3px;
+  }
+  .gym .coming-soon-content {
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .gym .coming-soon-content h5 {
+    margin-bottom: 5px;
+    font-size: 13px;
+  }
+  .gym .coming-soon-content h1 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+  .gym .coming-soon-content form {
+    margin-top: 25px;
+  }
+  .gym .coming-soon-content form button {
+    position: relative;
+    height: auto;
+    line-height: initial;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .gym .coming-soon-content .social {
+    margin-top: 35px;
+  }
+  .gym .coming-soon-content .social h3 {
+    margin-bottom: 20px;
+  }
+  .event-1 .navbar-area {
+    padding-top: 20px;
+  }
+  .event-1 .navbar-menu .logo {
+    display: block;
+  }
+  .event-1 .coming-soon-area {
+    height: 100%;
+    padding-top: 140px;
+    padding-bottom: 80px;
+  }
+  .event-1 .coming-soon-area .col-lg-5 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .event-1 .coming-soon-area .col-lg-7 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .event-1 .coming-soon-content {
+    text-align: center;
+    max-width: 100%;
+  }
+  .event-1 .coming-soon-content .logo {
+    display: none;
+  }
+  .event-1 .coming-soon-content h1 {
+    font-size: 32px;
+    line-height: 1.4;
+  }
+  .event-1 .coming-soon-content p {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .event-1 .coming-soon-content form {
+    max-width: 100%;
+    margin-top: 25px;
+  }
+  .event-1 .coming-soon-content form button {
+    position: relative;
+    height: auto;
+    line-height: initial;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .event-1 .coming-soon-content .social {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+  .event-1 .coming-soon-content .social h3 {
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+  .event-1 .countdown-timer {
+    padding-left: 0;
+    margin-top: 40px;
+  }
+  .event-1 .countdown-timer #timer {
+    width: 290px;
+    height: 290px;
+    margin: 0 auto;
+  }
+  .event-1 .countdown-timer #timer div {
+    font-size: 95px;
+    padding-top: 65px;
+  }
+  .event-1 .countdown-timer #timer div span {
+    font-size: 20px;
+    margin-top: -25px;
+  }
+  .event-1 .countdown-timer #timer::before {
+    margin: 15px;
+  }
+  .event-1 .shape1, .event-1 .shape2, .event-1 .shape3, .event-1 .shape4, .event-1 .shape5, .event-1 .shape6, .event-1 .shape7, .event-1 .shape8, .event-1 .shape9, .event-1 .shape10, .event-1 .shape11, .event-1 .shape12, .event-1 .shape13 {
+    display: none;
+  }
+  .event-2 .navbar-area {
+    padding-top: 20px;
+  }
+  .event-2 .main-banner-content h1 {
+    font-size: 43px;
+    line-height: 1.1;
+  }
+  .event-2 .main-banner-content p {
+    font-size: 13px;
+    max-width: 100%;
+    margin-top: 15px;
+  }
+  .event-2 .main-banner-content .btn-box {
+    margin-top: 20px;
+  }
+  .event-2 .main-banner-content .btn-box .btn {
+    font-size: 13px;
+  }
+  .event-2 .main-banner-content #timer div {
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .event-2 .main-banner-content #timer div span {
+    font-size: 15px;
+    margin-top: -6px;
+  }
+  .event-2 .main-banner-content #timer div::before {
+    display: none;
+  }
+  .auto-servicing .coming-soon-content {
+    max-width: 100%;
+  }
+  .auto-servicing .coming-soon-content h1 {
+    line-height: 1.4;
+    font-size: 28px;
+  }
+  .auto-servicing .coming-soon-content p {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .auto-servicing .coming-soon-content form {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+  .auto-servicing .coming-soon-content form input[type="text"], .auto-servicing .coming-soon-content form input[type="email"] {
+    font-size: 14px;
+  }
+  .auto-servicing .coming-soon-content form button {
+    position: relative;
+    height: auto;
+    line-height: initial;
+    padding: 16px 30px;
+    font-size: 14px;
+    border: none;
+    margin-top: 15px;
+  }
+  .city .coming-soon-content {
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .city .coming-soon-content .logo {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 25px;
+  }
+  .city .coming-soon-content h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  .city .coming-soon-content form {
+    max-width: 100%;
+  }
+  .city .coming-soon-content form .btn {
+    padding: 15px 28px;
+    position: relative;
+    height: auto;
+    line-height: initial;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+  .city .coming-soon-content .social {
+    margin-top: 35px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: relative;
+  }
+  .city .coming-soon-content .social ul li a {
+    width: 33px;
+    height: 33px;
+    line-height: 34px;
+    font-size: 13px;
+  }
+  .city .coming-soon-content #timer div {
+    font-size: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .city .coming-soon-content #timer div span {
+    text-transform: capitalize;
+    font-size: 14px;
+  }
+  .city .coming-soon-content #timer div::before {
+    display: none;
+  }
+  .city .coming-soon-image {
+    height: 310px;
+  }
+  .plumbing .coming-soon-content {
+    max-width: 100%;
+  }
+  .plumbing .coming-soon-content h1 {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .plumbing .coming-soon-content p {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  .plumbing .coming-soon-content #timer {
+    margin-top: 35px;
+  }
+  .plumbing .coming-soon-content #timer div {
+    font-size: 41px;
+    width: auto;
+    height: auto;
+    padding-top: 0;
+    background-color: transparent;
+    margin-left: 9px;
+    margin-right: 9px;
+  }
+  .plumbing .coming-soon-content #timer div span {
+    font-size: 13px;
+    margin-top: -5px;
+  }
+  .plumbing .coming-soon-content #timer div::before, .plumbing .coming-soon-content #timer div::after {
+    display: none;
+  }
+  .plumbing .coming-soon-content .newsletter-form {
+    margin-top: 30px;
+  }
+  .plumbing .coming-soon-content .newsletter-form .input-newsletter {
+    height: 55px;
+    padding-left: 13px;
+    font-size: 15px;
+  }
+  .plumbing .coming-soon-content .newsletter-form button {
+    position: relative;
+    height: auto;
+    padding: 14px 30px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .sidebar-modal .sidebar-modal-inner {
+    width: 100%;
+    padding: 30px;
+  }
+  .sidebar-modal .sidebar-modal-inner .close-btn {
+    right: 20px;
+    top: 14px;
+    font-size: 20px;
+  }
+  .sidebar-modal .about-area {
+    margin-bottom: 30px;
+  }
+  .sidebar-modal .about-area .title h2 {
+    font-size: 20px;
+  }
+  .sidebar-modal .about-area .title p {
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 1.8;
+  }
+  .sidebar-modal .contact-area .title {
+    margin-bottom: 20px;
+  }
+  .sidebar-modal .contact-area .title h2 {
+    font-size: 20px;
+  }
+  .sidebar-modal .contact-area .contact-form {
+    max-width: 100%;
+  }
+  .sidebar-modal .contact-area .contact-info {
+    margin-top: 35px;
+  }
+  .sidebar-modal .contact-area .contact-info .contact-info-content h3 {
+    font-size: 17px;
+    line-height: 1.4;
+  }
+  .sidebar-modal .contact-area .contact-info .contact-info-content h2 {
+    font-size: 22px;
+  }
+  .sidebar-modal .contact-area .contact-info .contact-info-content h2 span {
+    font-size: 13px;
+  }
+  .subscribe-modal .subscribe-modal-inner {
+    max-width: 100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    overflow-y: scroll;
+    -webkit-transform: scale(0.7) translateY(0);
+            transform: scale(0.7) translateY(0);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .subscribe-modal .subscribe-modal-inner h2 {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+  .subscribe-modal .subscribe-modal-inner p {
+    max-width: 100%;
+    line-height: 1.8;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .subscribe-modal .subscribe-modal-inner .close-btn {
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    color: #000000;
+  }
+  .subscribe-modal .subscribe-modal-inner .newsletter-header .animation-icons {
+    display: none;
+  }
+  .subscribe-modal .subscribe-modal-inner .newsletter-header img {
+    width: 100px;
+  }
+  .subscribe-modal .subscribe-modal-inner form {
+    max-width: 100%;
+    border-radius: 0;
+    margin-top: 30px;
+    -webkit-box-shadow: unset;
+            box-shadow: unset;
+  }
+  .subscribe-modal .subscribe-modal-inner form .input-newsletter {
+    -webkit-box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+            box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+  }
+  .subscribe-modal .subscribe-modal-inner form button {
+    position: relative;
+    margin-top: 15px;
+    height: auto;
+    border-radius: 30px;
+    font-size: 15px;
+    -webkit-box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+            box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  .subscribe-modal .subscribe-modal-inner form #validator-newsletter {
+    bottom: -30px;
+    font-size: 13px;
+  }
+  .subscribe-modal .subscribe-modal-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .subscribe-modal.active .subscribe-modal-inner {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+  }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 767px) {
+  .construction .coming-soon-area {
+    height: 100%;
+    padding-top: 210px;
+    padding-bottom: 255px;
+  }
+  .construction .coming-soon-content {
+    margin-top: 0;
+  }
+  .restaurant-1 .coming-soon-area {
+    height: 100%;
+    padding-top: 210px;
+    padding-bottom: 170px;
+  }
+  .restaurant-1 .coming-soon-content {
+    margin-top: 0;
+  }
+  .travel-1 .coming-soon-area {
+    height: 100%;
+    padding-top: 120px;
+    padding-bottom: 200px;
+  }
+  .travel-1 .coming-soon-content {
+    margin-top: 0;
+  }
+  .travel-2 .coming-soon-area {
+    height: 100%;
+    padding-top: 120px;
+    padding-bottom: 200px;
+  }
+  .travel-2 .coming-soon-content {
+    margin-top: 0;
+  }
+  .restaurant-2 .coming-soon-area {
+    height: 100%;
+    padding-top: 200px;
+    padding-bottom: 130px;
+  }
+  .restaurant-2 .coming-soon-content {
+    margin-top: 0;
+  }
+  .restaurant-3 .main-banner {
+    height: 100%;
+    padding-top: 155px;
+    padding-bottom: 110px;
+  }
+  .real-estate .coming-soon-area .container-fluid {
+    max-width: 540px;
+  }
+  .real-estate .coming-soon-content h2 {
+    font-size: 35px;
+  }
+  .real-estate .coming-soon-content p {
+    font-size: 14px;
+  }
+  .creative-1 .coming-soon-area {
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 150px;
+  }
+  .creative-1 .coming-soon-content {
+    margin-top: 0;
+  }
+  .doctor .coming-soon-content {
+    text-align: left;
+  }
+  .doctor .coming-soon-content h5 {
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+  .doctor .coming-soon-content h2 {
+    font-size: 36px;
+  }
+  .doctor .coming-soon-content p {
+    font-size: 14px;
+    margin-top: 13px;
+  }
+  .doctor .coming-soon-content .btn-box .btn {
+    padding: 14px 25px 13px 25px;
+    font-size: 13px;
+  }
+  .doctor #timer {
+    text-align: left;
+  }
+  .it .coming-soon-area {
+    height: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .seo .coming-soon-area .container-fluid {
+    max-width: 540px;
+  }
+  .seo .coming-soon-content h5 {
+    font-size: 15px;
+  }
+  .seo .coming-soon-content h1 {
+    font-size: 35px;
+  }
+  .seo .coming-soon-content p {
+    font-size: 13.5px;
+  }
+  .seo .coming-soon-content #timer div {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .seo .coming-soon-content #timer div::before {
+    display: block;
+    font-size: 50px;
+    right: -28px;
+    top: -14px;
+  }
+  .seo .coming-soon-content #timer div span {
+    text-transform: capitalize;
+    margin-top: 0;
+  }
+  .event-2 .main-banner {
+    height: 100%;
+    padding-top: 190px;
+    padding-bottom: 130px;
+  }
+  .event-2 .main-banner-content {
+    margin-top: 0;
+  }
+  .auto-servicing .coming-soon-area {
+    height: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .plumbing .coming-soon-area {
+    height: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .construction .coming-soon-content h5 {
+    font-size: 18px;
+  }
+  .construction .coming-soon-content h1 {
+    font-size: 42px;
+  }
+  .construction .coming-soon-content p {
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .construction .coming-soon-content #timer div {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .restaurant-1 .coming-soon-content h5 {
+    font-size: 19px;
+  }
+  .restaurant-1 .coming-soon-content h1 {
+    font-size: 44px;
+  }
+  .restaurant-1 .coming-soon-content p {
+    font-size: 17px;
+  }
+  .restaurant-1 .coming-soon-content #timer div {
+    font-size: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .restaurant-1 .coming-soon-content #timer div span {
+    font-size: 18px;
+  }
+  .travel-1 .coming-soon-content {
+    margin-top: 0;
+  }
+  .travel-1 .coming-soon-content #timer {
+    margin-bottom: 10px;
+  }
+  .travel-1 .coming-soon-content #timer div {
+    font-size: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .travel-1 .coming-soon-content #timer div span {
+    font-size: 14.5px;
+    margin-top: -5px;
+  }
+  .travel-1 .coming-soon-content #timer div::before {
+    display: block;
+    right: -32px;
+    top: -4px;
+    font-size: 40px;
+  }
+  .travel-1 .coming-soon-content h1 {
+    font-size: 60px;
+    line-height: 1.1;
+  }
+  .travel-1 .coming-soon-content p {
+    font-size: 13.5px;
+  }
+  .travel-2 .coming-soon-content {
+    margin-top: 0;
+  }
+  .travel-2 .coming-soon-content #timer {
+    margin-bottom: 10px;
+  }
+  .travel-2 .coming-soon-content #timer div {
+    font-size: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .travel-2 .coming-soon-content #timer div span {
+    font-size: 14.5px;
+    margin-top: -5px;
+  }
+  .travel-2 .coming-soon-content #timer div::before {
+    display: block;
+    right: -32px;
+    top: -4px;
+    font-size: 40px;
+  }
+  .travel-2 .coming-soon-content h1 {
+    font-size: 60px;
+    line-height: 1.1;
+  }
+  .travel-2 .coming-soon-content p {
+    font-size: 13.5px;
+  }
+  .restaurant-2 .coming-soon-content h5 {
+    font-size: 17px;
+    margin-bottom: 12px;
+  }
+  .restaurant-2 .coming-soon-content h1 {
+    font-size: 40px;
+  }
+  .restaurant-2 .coming-soon-content p {
+    line-height: 1.8;
+    font-size: 15px;
+  }
+  .restaurant-2 .count-down-timer #timer div {
+    font-size: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .restaurant-2 .count-down-timer #timer div span {
+    margin-top: -8px;
+    font-size: 16px;
+  }
+  .restaurant-3 .count-down-timer #timer div {
+    font-size: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .restaurant-3 .main-banner-content {
+    text-align: center;
+  }
+  .restaurant-3 .main-banner-content h1 {
+    line-height: 55px;
+    font-size: 45px;
+  }
+  .restaurant-3 .main-banner-content p {
+    font-size: 14px;
+  }
+  .restaurant-3 .main-banner-content .newsletter-form .input-newsletter {
+    width: 100%;
+  }
+  .restaurant-3 .main-banner-content .newsletter-form button {
+    position: absolute;
+    right: 0;
+    height: 55px;
+    padding: 0 30px;
+    line-height: 55px;
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .real-estate .navbar-menu .logo {
+    display: block;
+  }
+  .real-estate .coming-soon-area {
+    height: 100%;
+    padding-top: 180px;
+    padding-bottom: 90px;
+  }
+  .real-estate .coming-soon-area .container-fluid {
+    max-width: 720px;
+  }
+  .real-estate .coming-soon-content {
+    text-align: center;
+    max-width: 100%;
+  }
+  .real-estate .coming-soon-content h2 {
+    font-size: 40px;
+  }
+  .real-estate .coming-soon-content .logo {
+    display: none;
+  }
+  .real-estate .coming-soon-content p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .real-estate .coming-soon-content .newsletter-form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .real-estate .coming-soon-image {
+    margin-top: 45px;
+    margin-right: 0;
+  }
+  .creative-1 .coming-soon-content h2 {
+    font-size: 35px;
+  }
+  .creative-1 .coming-soon-content #timer div {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .it .coming-soon-content h1 {
+    font-size: 50px;
+  }
+  .it .coming-soon-content p {
+    font-size: 13.5px;
+  }
+  .it .coming-soon-content #timer {
+    margin-top: 20px;
+  }
+  .it .coming-soon-content #timer div {
+    font-size: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .it .coming-soon-content #timer div span {
+    font-size: 15px;
+    margin-top: -6px;
+  }
+  .it .coming-soon-content #timer div::before {
+    display: block;
+    right: -33px;
+    top: -5px;
+    font-size: 50px;
+  }
+  .it .coming-soon-content .newsletter-form .input-newsletter {
+    font-size: 16px;
+  }
+  .it .coming-soon-content .newsletter-form button {
+    position: absolute;
+    height: 55px;
+    padding: 0 30px;
+    font-size: 15px;
+    margin-top: 0;
+  }
+  .agency .main-banner-content {
+    max-width: 100%;
+    text-align: center;
+  }
+  .agency .main-banner-content h1 {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .agency .main-banner-content p {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  .agency .main-banner-content .newsletter-form button {
+    position: absolute;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 30px;
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .seo .main-banner .container-fluid {
+    max-width: 540px;
+  }
+  .seo .main-banner-content h1 {
+    font-size: 32px;
+  }
+  .seo .main-banner-content #timer div {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .seo .main-banner-content #timer div::before {
+    display: block;
+    right: -28px;
+    top: -9px;
+    font-size: 45px;
+  }
+  .seo .main-banner-content p {
+    font-size: 13.5px;
+  }
+  .seo .main-banner-content .newsletter-form button {
+    position: absolute;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 30px;
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .creative-2 .coming-soon-content {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .creative-2 .coming-soon-time #timer {
+    z-index: 1;
+  }
+  .creative-2 .coming-soon-time #timer div {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .creative-3 .coming-soon-content {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .creative-3 .coming-soon-content #timer div {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .creative-3 .coming-soon-content #timer div::before {
+    display: block;
+    font-size: 50px;
+    top: -19px;
+    right: -29px;
+  }
+  .gym .coming-soon-image #timer {
+    right: 25px;
+    bottom: 20px;
+  }
+  .gym .coming-soon-image #timer div {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .gym .coming-soon-content {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .gym .coming-soon-content h5 {
+    font-size: 14px;
+  }
+  .gym .coming-soon-content h1 {
+    font-size: 32px;
+  }
+  .gym .coming-soon-content form button {
+    position: absolute;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 35px;
+    border-radius: 0 30px 30px 0;
+    margin-top: 0;
+  }
+  .event-1 .coming-soon-area .container-fluid {
+    max-width: 540px;
+  }
+  .event-1 .coming-soon-content form {
+    max-width: 100%;
+    margin-top: 25px;
+  }
+  .event-1 .coming-soon-content form button {
+    position: absolute;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 30px;
+    border-radius: 0 30px 30px 0;
+    margin-top: 0;
+  }
+  .event-2 .main-banner-content h1 {
+    font-size: 50px;
+  }
+  .event-2 .main-banner-content p {
+    margin-top: 20px;
+  }
+  .event-2 .main-banner-content #timer div {
+    font-size: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .event-2 .main-banner-content #timer div::before {
+    display: block;
+    font-size: 50px;
+    top: -4px;
+    right: -30px;
+  }
+  .auto-servicing .coming-soon-content h1 {
+    font-size: 30px;
+  }
+  .auto-servicing .coming-soon-content p {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .auto-servicing .coming-soon-content form button {
+    position: absolute;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 30px;
+    font-size: 14px;
+    border: 1px solid #eeeeee;
+    margin-top: 0;
+  }
+  .city .coming-soon-content {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .city .coming-soon-content #timer div {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .city .coming-soon-content #timer div::before {
+    display: block;
+    font-size: 50px;
+    top: -19px;
+    right: -30px;
+  }
+  .city .coming-soon-image {
+    height: 400px;
+  }
+  .plumbing .coming-soon-content h1 {
+    font-size: 50px;
+  }
+  .plumbing .coming-soon-content p {
+    font-size: 13.5px;
+  }
+  .plumbing .coming-soon-content #timer {
+    margin-top: 45px;
+  }
+  .plumbing .coming-soon-content #timer div {
+    font-size: 50px;
+    padding-top: 11px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .plumbing .coming-soon-content #timer div span {
+    font-size: 15px;
+    margin-top: -6px;
+  }
+  .plumbing .coming-soon-content #timer div::before, .plumbing .coming-soon-content #timer div::after {
+    display: none;
+  }
+  .plumbing .coming-soon-content .newsletter-form .input-newsletter {
+    font-size: 16px;
+  }
+  .plumbing .coming-soon-content .newsletter-form button {
+    position: absolute;
+    height: 55px;
+    padding: 0 30px;
+    font-size: 15px;
+    margin-top: 0;
+  }
+  .subscribe-modal .subscribe-modal-content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .subscribe-modal .subscribe-modal-content h2 {
+    font-size: 24px;
+  }
+  .subscribe-modal .subscribe-modal-content p {
+    font-size: 14px;
+  }
+  .subscribe-modal .subscribe-modal-content .close-btn {
+    right: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .construction .coming-soon-content h5 {
+    font-size: 19px;
+  }
+  .construction .coming-soon-content h1 {
+    font-size: 70px;
+  }
+  .construction .coming-soon-content p {
+    font-size: 15px;
+  }
+  .construction .coming-soon-content #timer {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .construction .coming-soon-content #timer div {
+    margin-right: 30px;
+  }
+  .construction .coming-soon-content .notify-btn {
+    font-size: 16px;
+  }
+  .restaurant-1 .navbar-menu .logo {
+    display: block;
+  }
+  .restaurant-1 .coming-soon-content {
+    margin-top: 50px;
+  }
+  .restaurant-1 .coming-soon-content .logo {
+    display: none;
+  }
+  .restaurant-1 .coming-soon-content h5 {
+    font-size: 20px;
+  }
+  .restaurant-1 .coming-soon-content h1 {
+    font-size: 65px;
+  }
+  .restaurant-1 .coming-soon-content #timer div {
+    font-size: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .travel-1 .coming-soon-content h1 {
+    font-size: 65px;
+  }
+  .travel-1 .coming-soon-content p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 15px;
+  }
+  .travel-1 .coming-soon-content #timer div {
+    font-size: 55px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .travel-1 .coming-soon-content #timer div span {
+    font-size: 16px;
+    margin-top: -8px;
+  }
+  .travel-1 .coming-soon-content #timer div::before {
+    right: -40px;
+    top: -8px;
+    font-size: 60px;
+  }
+  .travel-2 .coming-soon-content h1 {
+    font-size: 65px;
+  }
+  .travel-2 .coming-soon-content p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 15px;
+  }
+  .travel-2 .coming-soon-content #timer div {
+    font-size: 55px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .travel-2 .coming-soon-content #timer div span {
+    font-size: 16px;
+    margin-top: -8px;
+  }
+  .travel-2 .coming-soon-content #timer div::before {
+    right: -40px;
+    top: -8px;
+    font-size: 60px;
+  }
+  .restaurant-2 .coming-soon-content h1 {
+    line-height: 50px;
+    font-size: 44px;
+  }
+  .restaurant-2 .coming-soon-content .newsletter-form {
+    max-width: 520px;
+  }
+  .restaurant-3 .main-banner-content .newsletter-form {
+    margin-top: 30px;
+    max-width: 540px;
+  }
+  .real-estate .navbar-menu .logo {
+    display: block;
+  }
+  .real-estate .coming-soon-area {
+    height: 100%;
+    padding-top: 180px;
+    padding-bottom: 100px;
+  }
+  .real-estate .coming-soon-area .container-fluid {
+    max-width: 720px;
+  }
+  .real-estate .coming-soon-content {
+    text-align: center;
+    max-width: 100%;
+  }
+  .real-estate .coming-soon-content h2 {
+    font-size: 50px;
+  }
+  .real-estate .coming-soon-content .logo {
+    display: none;
+  }
+  .real-estate .coming-soon-content p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .real-estate .coming-soon-content .newsletter-form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .real-estate .coming-soon-image {
+    margin-top: 45px;
+    margin-right: 0;
+  }
+  .creative-1 .coming-soon-content h2 {
+    font-size: 45px;
+  }
+  .creative-1 .coming-soon-content p {
+    margin-top: 15px;
+  }
+  .creative-1 .coming-soon-content #timer {
+    margin-bottom: 25px;
+  }
+  .creative-1 .coming-soon-content #timer div {
+    font-size: 40px;
+  }
+  .creative-1 .shape1, .creative-1 .shape2 {
+    display: none;
+  }
+  .doctor .coming-soon-content {
+    margin-top: -130px;
+  }
+  .doctor .coming-soon-content h5 {
+    font-size: 18px;
+  }
+  .doctor .coming-soon-content h1 {
+    line-height: 1.2;
+    font-size: 60px;
+  }
+  .doctor .coming-soon-content p {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .doctor .coming-soon-content .btn-box {
+    margin-top: 30px;
+  }
+  .doctor #timer {
+    right: 15px;
+    bottom: 10px;
+  }
+  .it .coming-soon-content h1 {
+    font-size: 65px;
+  }
+  .it .coming-soon-content #timer div {
+    font-size: 60px;
+  }
+  .it .coming-soon-content #timer div::before {
+    font-size: 65px;
+    right: -45px;
+  }
+  .agency .main-banner-content {
+    margin-top: -70px;
+  }
+  .agency .main-banner-content h1 {
+    font-size: 57px;
+  }
+  .agency .main-banner-content p {
+    margin-top: 14px;
+  }
+  .agency .main-banner-content .newsletter-form {
+    margin-top: 25px;
+  }
+  .agency .countdown-timer {
+    right: 0;
+    bottom: -265px;
+    width: 300px;
+    height: 300px;
+  }
+  .agency .countdown-timer h3 {
+    font-size: 23px;
+  }
+  .agency .countdown-timer #timer {
+    margin-top: 10px;
+  }
+  .agency .countdown-timer #timer div {
+    font-size: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .agency .countdown-timer #timer div::before {
+    display: none;
+  }
+  .agency .countdown-timer #timer div span {
+    font-size: 15px;
+    margin-top: -3px;
+  }
+  .seo .navbar-menu .burger-menu {
+    border-color: #000000;
+  }
+  .seo .navbar-menu .burger-menu span {
+    background: #000000;
+  }
+  .seo .main-banner {
+    height: 100%;
+    padding-top: 160px;
+    padding-bottom: 145px;
+  }
+  .seo .main-banner::before {
+    display: none;
+  }
+  .seo .main-banner .container-fluid {
+    max-width: 720px;
+  }
+  .seo .main-banner-content {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .seo .main-banner-content p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .seo .main-banner-content .newsletter-form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .seo .main-banner-image {
+    left: 0;
+    bottom: 0;
+    margin-top: 50px;
+  }
+  .seo .footer-area {
+    right: 0;
+    text-align: center;
+  }
+  .creative-2 .coming-soon-content {
+    text-align: center;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .creative-2 .coming-soon-content .logo {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-bottom: 25px;
+  }
+  .creative-2 .coming-soon-content .social {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top: 35px;
+  }
+  .creative-2 .coming-soon-content form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .creative-2 .coming-soon-content form #validator-newsletter {
+    right: 0;
+    font-size: 13px;
+    bottom: -25px;
+  }
+  .creative-2 .coming-soon-image {
+    background-image: unset;
+    width: auto;
+    height: auto;
+  }
+  .creative-2 .coming-soon-image img {
+    display: block;
+  }
+  .creative-2 .coming-soon-time {
+    background-image: unset;
+  }
+  .creative-2 .coming-soon-time img {
+    display: block;
+  }
+  .creative-2 .coming-soon-time #timer {
+    max-width: 100%;
+    z-index: 2;
+  }
+  .creative-2 .coming-soon-time::before {
+    z-index: 1;
+  }
+  .creative-3 .coming-soon-content {
+    text-align: center;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .creative-3 .coming-soon-content .logo {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-bottom: 25px;
+  }
+  .creative-3 .coming-soon-content .social {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top: 35px;
+  }
+  .creative-3 .coming-soon-content form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .creative-3 .coming-soon-image {
+    background-image: unset;
+    width: auto;
+    height: auto;
+  }
+  .creative-3 .coming-soon-image img {
+    display: block;
+  }
+  .ico .navbar-menu .burger-menu {
+    font-size: 18px;
+  }
+  .ico .coming-soon-area {
+    padding-bottom: 120px;
+    padding-top: 180px;
+  }
+  .ico .coming-soon-area .container-fluid {
+    max-width: 720px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .ico .coming-soon-image {
+    margin-top: 0;
+    padding-left: 0;
+  }
+  .ico .coming-soon-content {
+    text-align: center;
+    padding-left: 0;
+    padding-top: 0;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
+  .ico .coming-soon-content #timer div {
+    font-size: 50px;
+  }
+  .ico .coming-soon-content #timer div::before {
+    right: -37px;
+    top: -18px;
+    font-size: 60px;
+  }
+  .gym .coming-soon-image {
+    width: auto;
+    height: auto;
+    background-image: unset;
+  }
+  .gym .coming-soon-image img {
+    display: block;
+  }
+  .gym .coming-soon-image .logo {
+    display: none;
+  }
+  .gym .coming-soon-content {
+    height: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .event-1 .navbar-menu .logo {
+    display: block;
+  }
+  .event-1 .coming-soon-area {
+    height: 100%;
+    padding-top: 170px;
+    padding-bottom: 80px;
+  }
+  .event-1 .coming-soon-area .col-lg-5 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .event-1 .coming-soon-area .col-lg-7 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .event-1 .coming-soon-area .container-fluid {
+    max-width: 720px;
+  }
+  .event-1 .coming-soon-content {
+    text-align: center;
+    max-width: 100%;
+  }
+  .event-1 .coming-soon-content .logo {
+    display: none;
+  }
+  .event-1 .coming-soon-content p {
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .event-1 .coming-soon-content form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .event-1 .coming-soon-content .social {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .event-1 .coming-soon-content h1 {
+    line-height: 1.4;
+    font-size: 42px;
+  }
+  .event-1 .countdown-timer {
+    padding-left: 0;
+    margin-top: 45px;
+  }
+  .event-1 .countdown-timer #timer {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .event-1 .countdown-timer #timer div {
+    padding-top: 76px;
+    font-size: 140px;
+  }
+  .event-1 .countdown-timer #timer div span {
+    font-size: 25px;
+    margin-top: -30px;
+  }
+  .event-1 .shape1, .event-1 .shape9, .event-1 .shape12, .event-1 .shape13 {
+    display: none;
+  }
+  .event-2 .main-banner-content h1 {
+    font-size: 65px;
+    line-height: 1.3;
+  }
+  .event-2 .main-banner-content p {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .event-2 .main-banner-content #timer div {
+    font-size: 65px;
+  }
+  .event-2 .main-banner-content #timer div span {
+    margin-top: -13px;
+  }
+  .event-2 .main-banner-content #timer div::before {
+    right: -52px;
+    top: -10px;
+    font-size: 70px;
+  }
+  .city .coming-soon-content {
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .city .coming-soon-content .logo {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-bottom: 25px;
+  }
+  .city .coming-soon-content .social {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top: 35px;
+  }
+  .city .coming-soon-content form #validator-newsletter {
+    right: 0;
+    font-size: 13px;
+    bottom: -25px;
+  }
+  .city .coming-soon-image {
+    height: 500px;
+  }
+  .plumbing .coming-soon-content h1 {
+    font-size: 65px;
+  }
+  .plumbing .coming-soon-content #timer div {
+    font-size: 60px;
+  }
+  .sidebar-modal .sidebar-modal-inner {
+    width: 85%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .sidebar-modal .about-area .title h2 {
+    font-size: 24px;
+  }
+  .sidebar-modal .contact-area .title h2 {
+    font-size: 24px;
+  }
+  .subscribe-modal .subscribe-modal-inner h2 {
+    font-size: 25px;
+  }
+  .subscribe-modal .subscribe-modal-inner .close-btn {
+    right: 25px;
+    top: 20px;
+    font-size: 25px;
+    color: #000000;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .travel-1 .coming-soon-content h1 {
+    font-size: 85px;
+  }
+  .travel-2 .coming-soon-content h1 {
+    font-size: 85px;
+  }
+  .restaurant-3 .main-banner .col-lg-6 {
+    -ms-flex: 0 0 55%;
+    -webkit-box-flex: 0;
+            flex: 0 0 55%;
+    max-width: 55%;
+  }
+  .restaurant-3 .main-banner-content .newsletter-form .input-newsletter {
+    width: 100%;
+  }
+  .restaurant-3 .main-banner-content .newsletter-form button {
+    right: 0;
+  }
+  .real-estate .navbar-menu .logo {
+    display: block;
+  }
+  .real-estate .coming-soon-area .container-fluid {
+    max-width: 960px;
+  }
+  .real-estate .coming-soon-content .logo {
+    display: none;
+  }
+  .real-estate .coming-soon-content h2 {
+    font-size: 43px;
+  }
+  .real-estate .coming-soon-content p {
+    margin-top: 20px;
+  }
+  .real-estate .coming-soon-content #timer div {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    border-width: 10px;
+    padding-top: 5px;
+  }
+  .real-estate .coming-soon-image {
+    margin-right: 0;
+  }
+  .doctor .coming-soon-content {
+    margin-top: -95px;
+  }
+  .agency .main-banner-content h1 {
+    font-size: 57px;
+  }
+  .agency .countdown-timer {
+    right: 0;
+    bottom: -200px;
+  }
+  .seo .navbar-menu .burger-menu {
+    border-color: #000000;
+  }
+  .seo .navbar-menu .burger-menu span {
+    background: #000000;
+  }
+  .seo .main-banner::before {
+    display: none;
+  }
+  .seo .main-banner .container-fluid {
+    max-width: 960px;
+  }
+  .seo .main-banner-content {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .seo .main-banner-image {
+    left: 0;
+    bottom: 0;
+  }
+  .creative-2 .coming-soon-content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .creative-2 .coming-soon-content .logo {
+    left: 30px;
+  }
+  .creative-2 .coming-soon-content .social {
+    left: 30px;
+  }
+  .creative-3 .coming-soon-content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .creative-3 .coming-soon-content .logo {
+    left: 30px;
+  }
+  .creative-3 .coming-soon-content .social {
+    left: 30px;
+  }
+  .ico .coming-soon-image {
+    padding-right: 0;
+  }
+  .gym .coming-soon-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .event-1 .navbar-menu .logo {
+    display: block;
+  }
+  .event-1 .coming-soon-content {
+    margin-top: 60px;
+  }
+  .event-1 .coming-soon-content .logo {
+    display: none;
+  }
+  .event-1 .coming-soon-content h1 {
+    font-size: 45px;
+  }
+  .event-1 .coming-soon-content p {
+    margin-top: 20px;
+  }
+  .event-1 .coming-soon-content form {
+    margin-top: 30px;
+  }
+  .event-1 .coming-soon-content .social {
+    margin-top: 40px;
+  }
+  .event-1 .countdown-timer {
+    padding-left: 0;
+    margin-top: 60px;
+  }
+  .event-1 .countdown-timer #timer {
+    width: 400px;
+    height: 400px;
+  }
+  .event-1 .countdown-timer #timer div {
+    padding-top: 70px;
+    font-size: 160px;
+  }
+  .event-1 .countdown-timer #timer div span {
+    font-size: 25px;
+    margin-top: -35px;
+  }
+  .event-1 .shape1, .event-1 .shape9, .event-1 .shape12, .event-1 .shape13 {
+    display: none;
+  }
+  .event-2 .main-banner-content h1 {
+    font-size: 80px;
+  }
+  .city .coming-soon-content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .city .coming-soon-content .logo {
+    left: 30px;
+  }
+  .city .coming-soon-content .social {
+    left: 30px;
+  }
+  .sidebar-modal .sidebar-modal-inner {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  .seo .main-banner::before {
+    right: 0;
+  }
+  .event-1 .countdown-timer {
+    padding-left: 50px;
+  }
+  .event-1 .countdown-timer #timer {
+    width: 600px;
+    height: 600px;
+  }
+  .event-1 .countdown-timer #timer div {
+    padding-top: 110px;
+    font-size: 220px;
+  }
+  .event-1 .countdown-timer #timer div span {
+    margin-top: -60px;
+    font-size: 35px;
+  }
+  .event-1 .shape12 img {
+    max-width: 100%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
