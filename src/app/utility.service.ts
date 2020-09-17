@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { AngularFireDatabase, AngularFireList } from '@angular/fire/database'
 import { AngularFireAuth } from '@angular/fire/auth';
 import { Router } from '@angular/router';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -9,7 +10,8 @@ import { Router } from '@angular/router';
 export class UtilityService {
   users: AngularFireList<any>;
   constructor(private db: AngularFireDatabase,
-              private router: Router) { }
+              private router: Router,
+              private http: HttpClient,) { }
 
 
     addRecord() {
@@ -101,9 +103,9 @@ export class UtilityService {
             
                         let userdata = x;
             
-                        // this.sendEmailtoAdmin(userdata).subscribe(x => {
-                        //   console.log(x);
-                        // });
+                        this.sendEmailtoAdmin(userdata).subscribe(x => {
+                          console.log(x);
+                        });
                       })
                   }
                 )
@@ -118,9 +120,9 @@ export class UtilityService {
                     this.db.object('database/projects/' + key).valueChanges().subscribe(x => {
                         console.log("userdata",x);
                         let userdata = x;
-                        // this.sendEmailtoAdmin(userdata).subscribe(x => {
-                        //       console.log(x);
-                        //     });
+                        this.sendEmailtoAdmin(userdata).subscribe(x => {
+                              console.log(x);
+                            });
                             this.router.navigateByUrl('/getting-started/appointment-confirmed');
                           })
             
@@ -129,5 +131,20 @@ export class UtilityService {
                 ).catch(err => {
                   alert(err);
                 })
-              }       
+              } 
+              
+              sendEmailtoAdmin(userdata)
+              {
+              
+               console.log("userdata",userdata);
+               const httpOptions = {
+                headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+               }
+                return this.http.post<any>(`https://us-central1-isolaros-24c15.cloudfunctions.net/sendMail?dest=${userdata.email} &firstname=${userdata.firstName}&lastname=${userdata.last_name}
+                     &contactNo=${userdata.contact_number} &homeOwner=${userdata.home_owner}&avgBill=${userdata.utility_bill} &source=${userdata.surveryInit} &address=${userdata.address}
+                     &credit=${userdata.credit_estimate}&appointment=${userdata.appointment}`,
+                     
+                     {}, httpOptions);
+            
+              }
 }
