@@ -16915,30 +16915,30 @@
 //     animation: fade-in .3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 // }
 
-.sample-column {
-    display: flex;
-    flex-flow: column nowrap;
-    flex: 1 0 25%;
-    align-content: flex-start;
-    margin: 16px;
-    min-width: 280px;
-}
+// .sample-column {
+//     display: flex;
+//     flex-flow: column nowrap;
+//     flex: 1 0 25%;
+//     align-content: flex-start;
+//     margin: 16px;
+//     min-width: 280px;
+// }
 
-.sample-title {
-    color: #0375be;
-    margin-bottom: 12px;
-    margin-top: 12px;
-}
+// .sample-title {
+//     color: #0375be;
+//     margin-bottom: 12px;
+//     margin-top: 12px;
+// }
 
-.sample-title .light {
-    font-weight: 400;
-}
+// .sample-title .light {
+//     font-weight: 400;
+// }
 
-.sample-description {
-    font-size: 14px;
-    font-weight: normal;
-    color: #717171;
-}
+// .sample-description {
+//     font-size: 14px;
+//     font-weight: normal;
+//     color: #717171;
+// }
 
 @-webkit-keyframes color-change-2x {
     0% {
@@ -16976,9 +16976,9 @@
     }
 }
 
-.headerAlignSyle {
-    text-align: right !important;
-}
+// .headerAlignSyle {
+//     text-align: right !important;
+// }
 
 $green-palette: igx-palette($primary: #09f,$secondary: #72da67, $surface: #333);
 
@@ -17007,3 +17007,12 @@ $green-palette: igx-palette($primary: #09f,$secondary: #72da67, $surface: #333);
 
  
 @import "~material-design-icons/iconfont/material-icons.css";
+
+.igx-typography {
+    font-family: 'Titillium Web', sans-serif;
+    //  font-size: 50px; 
+     line-height: normal;
+    font-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
