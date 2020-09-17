@@ -5,17 +5,17 @@
                 <div class="container">
                     <div class="coming-soon-content">
                         <div class="logo">
-                            <a routerLink="/it"><img src="assets/img/white-logo.png" alt="image"></a>
+                            <a routerLink="/it"><img src="assets/new-project/img/logo.png" alt="image"></a>
                         </div>
-                        <h1>We are coming soon</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                        <h5 style="color: white;">Does Your Roof Qualify? Take our 30-Second Solar Roof Survey & Find Out!</h5>
+                        <p>Click The Button Below To Check Your Address In 30 Seconds.</p>
 
                         <app-countdown></app-countdown>
 
                         <form class="newsletter-form">
                             <input type="email" class="input-newsletter" placeholder="Enter email address" name="EMAIL" required autocomplete="off">
         
-                            <button type="submit">Notify Me</button>
+                            <button type="submit" (click)= gettingStarted()>Get Started</button>
                         </form>
                     </div>
                 </div>

@@ -34,7 +34,12 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
 import { DisclaimerComponent } from './disclaimer/disclaimer.component';
 
 const routes: Routes = [
-    {path: '', component: ConstructionComponent},
+    {path: ''
+    ,component: ConstructionComponent},
+     {  path: 'getting-started', children: [
+    {
+    path: '', component: ConstructionComponent
+    },
     {path: 'restaurant-1', component: Restaurant1Component},
     {path: 'travel-1', component: Travel1Component},
     {path: 'travel-2', component: Travel2Component},
@@ -60,7 +65,8 @@ const routes: Routes = [
     {path : 'appointment-confirmed', component : AppointmentConfirmationComponent},
     {path : 'not-qualified',component : NotQualifiedComponent},
     {path : 'terms', component : TermsAndConditionsComponent},
-    {path : 'privacy-policy', component : PrivacyPolicyv2Component},
+    {path : 'privacy-policy', component : PrivacyPolicyv2Component}
+    ]},         
     {
         path : 'blog', component : HomeComponent2
     },

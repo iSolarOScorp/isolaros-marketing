@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { UtilityService } from 'src/app/utility.service';
 
 @Component({
   selector: 'app-ico',
@@ -6,10 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ico.component.scss']
 })
 export class IcoComponent implements OnInit {
+  constructor(private service : UtilityService,
+    private router : Router) { }
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+ngOnInit(): void {
+this.service.addRecord()
+}
+gettingStarted()
+{
+this.service.updateRecord()
+}
 }

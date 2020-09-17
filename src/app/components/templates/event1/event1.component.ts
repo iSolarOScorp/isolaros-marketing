@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { UtilityService } from 'src/app/utility.service';
 
 @Component({
   selector: 'app-event1',
@@ -13,9 +15,17 @@ export class Event1Component implements OnInit {
   seconds: any;
   myInterval: any;
 
-  constructor() { }
+  constructor(private service : UtilityService,
+    private router : Router) { }
+
+
+gettingStarted()
+{
+this.service.updateRecord()
+}
 
   ngOnInit() {
+    this.service.addRecord()
     this.myInterval = setInterval(() => {
       this.commingSoonTime();
     }, 0);
