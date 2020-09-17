@@ -1,0 +1,345 @@
+<main class="site-content" role="main" style="margin-bottom: 20px;">
+    <div class="">
+        <div class="sec-title text-center m-t-25" style="margin-bottom: 20px;">
+            <h2 class="sectxtone m-b-0">SWITCH TO SOLAR TODAY!</h2>
+            <h2 class="sectxtonefor">FOR $0 DOWN!</h2>
+        </div>
+    </div>
+
+    <div class="text-center m-t-15" style="font-size: px;font-weight: bold;">
+
+        <h2 class="sectxtoneicntxt m-b-0">
+            <i class="fa_prepended fa fa-check-circle" contenteditable="false" style="color: rgb(91, 191, 106);"></i> GET YOUR FIRST 6 MONTHS FREE
+        </h2>
+        <h2 class="sectxtoneicntxt m-b-0">
+            <i class="fa_prepended fa fa-check-circle" contenteditable="false" style="color: rgb(91, 191, 106);"></i> IMMEDIATE SAVINGS ON YOUR NEXT Bill
+        </h2>
+    </div>
+    <form [formGroup]="filterForm">
+        <div id="form1">
+            <div class="sec-video text-center">
+                <div class="jfCard canMoveAuto" data-type="control_radio" style="max-height: 512px;">
+                    <div class="jfCard-question" style="max-height: 453.906px; overflow-y: auto;">
+                        <div class="formTitle">
+                            <h2 class="rqheading">Do you <strong>own</strong> your home?<span style="color: red;">*</span></h2>
+                            <p>Sorry.. This Program is exclusive for Homeowners Only</p>
+                        </div>
+                        <div>
+                            <div class="login100-formMb validate-form" style="width: 100%;">
+                                <div class="buying-selling-group" id="buying-selling-group" data-toggle="buttons">
+                                    <label class="btn btn-default buying-selling optionmk Mobile-filed" style="vertical-align:middle;">
+                                    <input type="radio" name="home_owner" class="optionmk" autocomplete="off" value="Yes" #home_owner required (change) = "homeOwner(home_owner.value)">
+                                    <span class="radio-dot"></span>
+                                    <span class="buying-selling-word">Yes</span>
+                                </label>
+
+                                    <label class="btn btn-default buying-selling Mobile-filed">
+                                    <input type="radio" name="home_owner" id="checkbox_redirect" autocomplete="off" value = "No" class="1" #home_ownerr (change) = "homeOwner(home_ownerr.value)" required>
+                                    <span class="radio-dot"></span>
+                                    <span class="buying-selling-word">No</span>
+                                </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomBtn">
+                        <div class="form-error-message">This field is required.</div>
+                        <button class="btn-right" id="nextbtn" class="cirnextbtn">Next <i class="fa fa-arrow-right"></i></button>
+                        <button class="btn-left  hide" id="prebtn"><i class="fa fa-arrow-left"></i> Previous</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="form2" style="display: none;">
+            <div class="sec-video text-center">
+                <div class="jfCard canMoveAuto wow animated bounceInRight animated" data-type="control_radio" style="max-height: 512px;">
+                    <div class="jfCard-question" style="max-height: 453.906px; overflow-y: auto;">
+                        <div class="formTitle">
+                            <h2 class="rqheading">What is your <strong>average monthly electric bill?</strong><span style="color: red;">*</span></h2>
+                        </div>
+                        <div class="">
+                            <div class="login100-formMb validate-form m-t-35" style="width: 100%; text-align: left;">
+                                <div class="buying-selling-group" id="buying-selling-group" data-toggle="buttons">
+                                    <label class="btn btn-default buying-selling Mobile-filed optionmk2" style="width: 31.33%">
+                                    <input type="radio" name="utility_bill" class="secformck" autocomplete="off" value="$50-$75" #utility_billa (change) = "bills(utility_billa.value)">
+                                    <span class="radio-dot"></span>
+                                    <span class="buying-selling-word">$50-$75</span>
+                                </label>
+
+                                    <label class="btn btn-default buying-selling Mobile-filed optionmk2" style="width: 31.33%">
+                                    <input type="radio" name="utility_bill" class="secformck" autocomplete="off" value="$75-$150" #utility_billb (change) = "bills(utility_billb.value)">
+                                    <span class="radio-dot"></span>
+                                    <span class="buying-selling-word">$75-$150</span>
+                                </label>
+
+                                    <label class="btn btn-default buying-selling Mobile-filed optionmk2" style="width: 31.33%">
+                                    <input type="radio" name="utility_bill" class="secformck" autocomplete="off" value="$150-$270"  #utility_billc (change) = "bills(utility_billc.value)">
+                                    <span class="radio-dot"></span>
+                                    <span class="buying-selling-word">$150-$270</span>
+                                </label>
+                                    <label class="btn btn-default buying-selling Mobile-filed optionmk2" style="width: 31.33%; margin-top: 10px;">
+                                    <input type="radio" name="utility_bill" class="secformck" autocomplete="off" value="$270-$400" #utility_billd (change) = "bills(utility_billd.value)">
+                                    <span class="radio-dot"></span>
+                                    <span class="buying-selling-word">$270-$400</span>
+                                </label>
+
+                                    <label class="btn btn-default buying-selling Mobile-filed optionmk2" style="width: 31.33%; margin-top: 10px;">
+                                    <input type="radio" name="utility_bill" class="secformck" autocomplete="off" value="$400+"  #utility_bille (change) = "bills(utility_bille.value)">
+                                    <span class="radio-dot"></span>
+                                    <span class="buying-selling-word">$400+</span>
+                                </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomBtn">
+                        <div class="form-error-message">This field is required.</div>
+                        <button class="btn-right" id="nextbtn2">Next <i class="fa fa-arrow-right"></i></button>
+                        <button class="btn-left" id="prebtn2"><i class="fa fa-arrow-left"></i> Previous</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="form3" style="display: none;">
+            <div class="sec-video text-center">
+                <div class="jfCard canMoveAuto wow animated bounceInRight animated" data-type="control_radio" style="max-height: 512px;">
+                    <div class="jfCard-question" style="max-height: 453.906px; overflow-y: auto;">
+                        <div class="formTitle">
+                            <h2 class="rqheading">What is your <strong>credit score range?</strong><span style="color: red;">*</span></h2>
+                            <p>Just a ball park guess is fine.. $0 down financing Pre-Approval Check:</p>
+                        </div>
+                        <div class="">
+                            <div class="login100-formMb validate-form m-t-35" style="width: 100%;">
+                                <div class="buying-selling-group" id="buying-selling-group" data-toggle="buttons">
+                                    <label class="btn btn-default buying-selling Mobile-filed optionmk3">
+                                    <input type="radio" name="credit_estimate" class="thrdfrmck" autocomplete="off" value="Excellent" #credit_estimate1 (change) = "credit(credit_estimate1.value)">
+                                    <span class="radio-dot"></span>
+                                    <span class="buying-selling-word">Excellent</span>
+                                </label>
+
+                                    <label class="btn btn-default buying-selling Mobile-filed optionmk3">
+                                    <input type="radio" name="credit_estimate" class="thrdfrmck" autocomplete="off" value="above-average" (change) = "credit('above-average')">
+                                    <span class="radio-dot"></span>
+                                    <span class="buying-selling-word">Above-Average</span>
+                                </label>
+                                    <div class="buying-selling-group" style="margin-top: 10px;" id="buying-selling-group" data-toggle="buttons">
+                                        <label class="btn btn-default buying-selling optionmk3 Mobile-filed">
+                                        <input type="radio" name="credit_estimate" class="thrdfrmck" autocomplete="off" value="average" (change) = "credit('avergae')">
+                                        <span class="radio-dot"></span>
+                                        <span class="buying-selling-word">Average</span>
+                                    </label>
+
+                                        <label class="btn btn-default buying-selling optionmk3 Mobile-filed">
+                                        <input type="radio" name="credit_estimate" class="thrdfrmck" autocomplete="off" value="below-average" (change) = "credit('below-average')">
+                                        <span class="radio-dot"></span>
+                                        <span class="buying-selling-word">Below-Average (Below 600)</span>
+                                    </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomBtn">
+                        <div class="form-error-message">This field is required.</div>
+                        <button class="btn-right" id="nextbtn3">Next <i class="fa fa-arrow-right"></i></button>
+                        <button class="btn-left" id="prebtn3"><i class="fa fa-arrow-left"></i> Previous</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="form4" style="display: none;">
+            <div class="sec-video text-center">
+                <div class="jfCard canMoveAuto wow animated bounceInRight animated" data-type="control_radio" style="max-height: 512px;">
+                    <div class="jfCard-question" style="max-height: 453.906px; overflow-y: auto;">
+                        <div class="formTitle">
+                            <h2 class="rqheading">What's your name, stranger?<span style="color: red;">*</span></h2>
+
+                        </div>
+                        <div>
+                            <div id="basic-form" class="login100-formMb validate-form m-t-35" style="width: 100%;">
+                                <div class="buying-selling-group" id="buying-selling-group" data-toggle="buttons">
+                                    <label class="btn btn-default buying-selling Mobile-filed" style="text-align: left;background: transparent!important;"> 
+                                    <input style="margin: 0;" type="text"  id="first-name" placeholder="First name" class="buying-selling-word" id="first-name" autocomplete="off" formControlName="first_name"  required #name (change) = "firstName(name.value)">
+                                    <!-- <span class="radio-dot"></span> -->
+                                    <!-- <span class="buying-selling-word">Excellent</span> -->
+                                </label>
+
+                                    <label class="btn btn-default buying-selling Mobile-filed" style="text-align: left;background: transparent!important;">
+                                    <input style="margin: 0;" type="text" id="last-name" class="buying-selling-word " placeholder="Last name" id="last-name" autocomplete="off" formControlName="last_name" required #last (change) = "lastName(last.value)">
+                                    <!-- <span class="radio-dot"></span> -->
+                                    <!-- <span class="buying-selling-word">Above-Average</span> -->
+                                </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomBtn">
+
+                        <div class="form-error-message-name">Type Alphabets Only.</div>
+                        <button class="btn-right" type="button" id="nextbtn4">Next <i class="fa fa-arrow-right"></i></button>
+                        <button class="btn-left" id="prebtn4"><i class="fa fa-arrow-left"></i> Previous</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="form5" style="display: none;">
+            <div class="sec-video text-center">
+                <div class="jfCard canMoveAuto wow animated bounceInRight animated" data-type="control_radio" style="max-height: 512px;">
+                    <div class="jfCard-question" style="max-height: 453.906px; overflow-y: auto;">
+                        <div class="formTitle">
+                            <h2 class="rqheading">What is your address ?<span style="color: red;">*</span></h2>
+                            <p>We use satellite imaging to place panels in the most efficient layout on your roof , not all roofs qualify.
+                            </p>
+                        </div>
+                        <div class="">
+                            <div class="login100-formMb validate-form m-t-35" style="width: 100%;">
+                                <div class="buying-selling-group" id="buying-selling-group" data-toggle="buttons">
+                                    <label class="btn btn-default buying-selling" style="text-align: left;background: transparent!important; width: 100%;">
+                
+                                     <!-- <input type="text"  id="formiadd" class="forminputs validate-input" placeholder="Street Address" id="option1"required> -->
+
+                                    <input style="margin: 0;" ngx-google-places-autocomplete [options]='options' type="text"  id="formiadd" class="forminputs validate-input" placeholder="Street Address" #placesRef="ngx-places" (onAddressChange)="handleAddressChange($event)" required>
+                                    <!-- <span class="radio-dot"></span> -->
+                                    <!-- <span class="buying-selling-word">Excellent</span> -->
+                                </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomBtn">
+                        <div class="form-error-message">This field is required.</div>
+                        <button type="button" class="btn-right" id="nextbtn5">Next <i class="fa fa-arrow-right"></i></button>
+                        <button class="btn-left" id="prebtn5"><i class="fa fa-arrow-left"></i> Previous</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="form6" style="display: none;">
+            <div class="sec-video text-center">
+                <div class="jfCard canMoveAuto wow animated bounceInRight animated" data-type="control_radio" style="max-height: 512px;">
+                    <div class="jfCard-question" style="max-height: 453.906px; overflow-y: auto;">
+                        <div class="formTitle">
+                            <h2 class="rqheading">What email should we use to <strong>send your solar qualification result?</strong><span style="color: red;">*</span></h2>
+
+                        </div>
+                        <div class="">
+                            <div class="login100-formMb validate-form m-t-35" style="width: 100%;">
+                                <div class="buying-selling-group" id="buying-selling-group" data-toggle="buttons">
+                                    <label class="btn btn-default buying-selling" style="text-align: left;background: transparent!important; width: 100%;">
+                                    <input style="margin: 0;" type="text" id="frmEmail" class="buying-selling-word validate-input" placeholder="example@youremail.com" autocomplete="off" formControlName="email"  #mail (change) = "Email(mail.value)">
+                                    <!-- <input type="text"  id="first-name" placeholder="First name" class="forminputs " id="first-name" autocomplete="off" formControlName="first_name"  required> -->
+                                    <!-- <span class="radio-dot"></span> -->
+                                    <!-- <span class="buying-selling-word">Excellent</span> -->
+                                </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomBtn">
+                        <div class="form-error-message">This field is required.</div>
+                        <div class="form-error-message-email">Type valid email</div>
+                        <button class="btn-right" type="button" id="nextbtn6">Next <i class="fa fa-arrow-right"></i></button>
+                        <button class="btn-left disable" id="prebtn6"><i class="fa fa-arrow-left"></i> Previous</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="form7" style="display: none;">
+            <div class="sec-video text-center">
+                <div class="jfCard canMoveAuto wow animated bounceInRight animated" data-type="control_radio" style="max-height: 512px;">
+                    <div class="jfCard-question" style="max-height: 453.906px; overflow-y: auto;">
+                        <div class="formTitle">
+                            <h2 class="rqheading">What is the <strong>best number to contact you?</strong><span style="color: red;">*</span></h2>
+                            <p>We wont share your information with anyone 🔐</p>
+                        </div>
+                        <div class="">
+                            <div class="login100-formMb validate-form m-t-35" style="width: 100%;">
+                                <div class="row buying-selling-group" id="buying-selling-group" data-toggle="buttons">
+                                    <div class="col-4" style="padding: 0 8px 0 0 !important;">
+                                        <label class="btn btn-default buying-selling1 Mobile-filed" style="text-align: left;background: transparent!important;">
+                                        <input type="number" style="margin: 0; box-sizing: border-box; width: 100%;" id="areacode" class="buying-selling-word validate-input"  placeholder="Area Code"formControlName="area_code"  required #areacode (change) = "areaCode(areacode.value)">
+                                         </label>
+                                    </div>
+                                    <div *ngIf = "areaCodeClass" class="form-error-message" >
+                                        Area Code Should Have 3 Characters
+                                    </div>
+                                    <div class="col-8" style="padding: 0 0 0 8px !important;">
+                                        <label class="btn btn-default buying-selling Mobile-filed" style="text-align: left;background: transparent!important; width: 100%;">
+                                        <input type="number" class="areacode contactnumber" style="margin: 0;" class="buying-selling-word validate-input" id="option2" placeholder="Phone Number" autocomplete="off" formControlName="contact_number" #c required (change) = "conntact(areacode.value,c.value)">                            
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                        
+                    <!-- <input type="hidden" name="appointment_date" value="$appointment_date">
+                <input type="hidden" name="appointment_time" value="$appointment_time"> -->
+
+                    <!-- <input type="hidden" name="zip_code" value="<?php echo $_POST['zip_code']; ?>" formControlName="zip_code"> -->
+                    <div class="bottomBtn">
+                        <div class="form-error-message">This field is required.</div>
+                        <button type="submit" class="btn-right" name="submit" id="finalSubmit" [disabled]= !areaCodeClass (click)="submited()">Submit</button>
+                        <button class="btn-left" id="prebtn7"><i class="fa fa-arrow-left"></i> Previous</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </form>
+    <div class="steps-form">
+        <div class="steps-row setup-panel">
+            <div style="padding-left: 4px;" class="steps-step" check="1">
+                <a href="#" type="button" id="cirprebtn" class="btn btn-indigo btn-circle cirnextbtn cirnextbtn1"></a>
+
+            </div>
+            <div class="steps-step" check="2">
+                <a href="#" type="button" id="cirnextbtn" class="btn btn-default btn-circle cirnextbtn cirnextbtn2"></a>
+
+            </div>
+            <div class="steps-step" check="3">
+                <a href="#" type="button" class="btn btn-default btn-circle cirnextbtn cirnextbtn3"></a>
+            </div>
+            <div class="steps-step" check="4">
+                <a href="#" type="button" class="btn btn-indigo btn-circle cirnextbtn cirnextbtn4"></a>
+
+            </div>
+            <div class="steps-step" check="5">
+                <a href="#" type="button" class="btn btn-default btn-circle cirnextbtn cirnextbtn5"></a>
+
+            </div>
+            <div class="steps-step" check="6">
+                <a href="#" type="button" class="btn btn-default btn-circle cirnextbtn cirnextbtn6"></a>
+            </div>
+            <div style="padding-right: 4px;" class="steps-step" check="7">
+                <a href="#" type="button" class="btn btn-default btn-circle cirnextbtn cirnextbtn7"></a>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer id="footer">
+    <div class="container ">
+        <div class="row text-center">
+            <div class="footer-content" style="margin:30px auto;">
+                <a href="/getting-started/privacy-policy" target="_blank" class="secpageFooter">Privacy Policy</a> |
+                <a href="/getting-started/terms" target="_blank" class="secpageFooter">Terms & Conditions</a>
+                <p class="secpageFooterP">© Copyright 2020 - iSolarOS, All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

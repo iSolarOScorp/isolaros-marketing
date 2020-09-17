@@ -28,6 +28,12 @@ import { AutoServicingComponent } from './components/templates/auto-servicing/au
 import { CityComponent } from './components/templates/city/city.component';
 import { PlumbingComponent } from './components/templates/plumbing/plumbing.component';
 import { CountdownComponent } from './components/common/countdown/countdown.component';
+import { DataCollectionComponent } from './data-collection/data-collection.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { AngularFireModule } from '@angular/fire';
+import { environment } from 'src/environments/environment';
+import { GooglePlaceModule } from 'ngx-google-places-autocomplete';
 
 @NgModule({
   declarations: [
@@ -56,13 +62,20 @@ import { CountdownComponent } from './components/common/countdown/countdown.comp
     AutoServicingComponent,
     CityComponent,
     PlumbingComponent,
-    CountdownComponent
+    CountdownComponent,
+    DataCollectionComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    GooglePlaceModule,
+
   ],
-  providers: [],
+  providers: [HttpClient,],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

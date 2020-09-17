@@ -21,6 +21,7 @@ import { Event2Component } from './components/templates/event2/event2.component'
 import { AutoServicingComponent } from './components/templates/auto-servicing/auto-servicing.component';
 import { CityComponent } from './components/templates/city/city.component';
 import { PlumbingComponent } from './components/templates/plumbing/plumbing.component';
+import { DataCollectionComponent } from './data-collection/data-collection.component';
 
 const routes: Routes = [
     {path: '', component: ConstructionComponent},
@@ -44,6 +45,9 @@ const routes: Routes = [
     {path: 'auto-servicing', component: AutoServicingComponent},
     {path: 'city', component: CityComponent},
     {path: 'plumbing', component: PlumbingComponent},
+    {
+        path : 'survey',component : DataCollectionComponent
+    }
 ];
 
 @NgModule({
